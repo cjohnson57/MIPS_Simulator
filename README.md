@@ -66,6 +66,41 @@ writing back data values, writing and reading memory, resolving branches, and AL
 [HelperFunctions.cs:](HelperFunctions.cs) This file has functions for converting between bits and integers as well as the large decode function,
 where the binary values of a machine code instruction are inspected in order to find the opcode and properties of each instruction.
 
+## Pipeline Description
+
+This project assumes an 8-stage MIPS pipeline with the following stages:
+
+* IF - First half of instruction fetch. PC (Program Counter) selection actually happens here, together with initiation of instruction cache access.
+* IS - Second half of instruction fetch, complete instruction cache access.
+* ID - Instruction decode, hazard checking.
+* RF - Register fetch.
+* EX - Execution, which includes effective address calculation, ALU operation, and branch-target computation and condition evaluation.
+* DF - Data fetch, first half of data cache access.
+* DS - Second half of data fetch, completion of data cache access. Note that the data access always hit the data cache.
+* WB - Write back for loads and register-register operations.
+
+The following instructions are supported as specified in the [MIPS Instruction Set Architecture](https://www.ece.lsu.edu/lpeng/ee7700-2/mips.pdf):
+* J, JR, BEQ, BNE, BGEZ, BGTZ, BLEZ, BLTZ
+* ADDI, ADDIU
+* BREAK
+* SLT
+* SW, LW
+* SLL, SRL, SRA
+* SUB, SUBU, ADD, ADDU
+* AND, OR, XOR, NOR
+* SLTI
+* NOP
+
+There are two potential stalls:
+
+1. If a value is loaded by a LW instruction which is needed in the next instruction, there will be 2 stall cycles. If it's needed 2 instructions later, just 1 stall cycle.
+2. Branches are always predicted as not taken. If they are taken, the pipeline must be cleared up to the EX stage and there will be a 4 cycle stall.
+
+The following forwardings can occur:
+
+* To the EX stage from the DF, DS, and WB stages.
+* To the DF stage from the DS and WB stages.
+
 ## Samples
 
 A sample input file, [input.txt](input.txt), has been provided with the repository. There are also two sample outputs: 
