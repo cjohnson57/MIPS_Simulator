@@ -1,0 +1,10024 @@
+****Cycle #0***********************************************
+Current PC = 496:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : NOP
+* ID : NOP 
+* RF : NOP 
+* EX : NOP 
+* DF : NOP 
+* DS : NOP 
+* WB : NOP 
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (none)
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 500
+* IS/ID.IR		: <00 00 00 00>
+* RF/EX.A		: 0
+* RF/EX.B		: 0
+* EX/DF.ALUout	: 0
+* EX/DF.B		: 0
+* DS/WB.ALUout-LMD	: 0
+
+Integer registers:
+R0	0	R1	0	R2	0	R3	0	
+R4	0	R5	0	R6	0	R7	0	
+R8	0	R9	0	R10	0	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 0
+604: 0
+608: 0
+612: 0
+616: 0
+620: 0
+624: 0
+628: 0
+632: 0
+636: 0
+
+Total Stalls:
+*Loads	: 0
+*Branches: 0
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 0
+* DF/DS -> EX/DF : 0
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 0
+
+****Cycle #1***********************************************
+Current PC = 500:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: 20 08 00 2C>
+* ID : NOP 
+* RF : NOP 
+* EX : NOP 
+* DF : NOP 
+* DS : NOP 
+* WB : NOP 
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (none)
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 504
+* IS/ID.IR		: <20 08 00 2C>
+* RF/EX.A		: 0
+* RF/EX.B		: 0
+* EX/DF.ALUout	: 0
+* EX/DF.B		: 0
+* DS/WB.ALUout-LMD	: 0
+
+Integer registers:
+R0	0	R1	0	R2	0	R3	0	
+R4	0	R5	0	R6	0	R7	0	
+R8	0	R9	0	R10	0	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 0
+604: 0
+608: 0
+612: 0
+616: 0
+620: 0
+624: 0
+628: 0
+632: 0
+636: 0
+
+Total Stalls:
+*Loads	: 0
+*Branches: 0
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 0
+* DF/DS -> EX/DF : 0
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 0
+
+****Cycle #2***********************************************
+Current PC = 504:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: 20 06 00 01>
+* ID : ADDI R8, R0, #44
+* RF : NOP 
+* EX : NOP 
+* DF : NOP 
+* DS : NOP 
+* WB : NOP 
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (none)
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 508
+* IS/ID.IR		: <20 06 00 01>
+* RF/EX.A		: 0
+* RF/EX.B		: 0
+* EX/DF.ALUout	: 0
+* EX/DF.B		: 0
+* DS/WB.ALUout-LMD	: 0
+
+Integer registers:
+R0	0	R1	0	R2	0	R3	0	
+R4	0	R5	0	R6	0	R7	0	
+R8	0	R9	0	R10	0	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 0
+604: 0
+608: 0
+612: 0
+616: 0
+620: 0
+624: 0
+628: 0
+632: 0
+636: 0
+
+Total Stalls:
+*Loads	: 0
+*Branches: 0
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 0
+* DF/DS -> EX/DF : 0
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 0
+
+****Cycle #3***********************************************
+Current PC = 508:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: AC 06 02 58>
+* ID : ADDI R6, R0, #1
+* RF : ADDI R8, R0, #44
+* EX : NOP 
+* DF : NOP 
+* DS : NOP 
+* WB : NOP 
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (none)
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 512
+* IS/ID.IR		: <AC 06 02 58>
+* RF/EX.A		: 0
+* RF/EX.B		: 0
+* EX/DF.ALUout	: 0
+* EX/DF.B		: 0
+* DS/WB.ALUout-LMD	: 0
+
+Integer registers:
+R0	0	R1	0	R2	0	R3	0	
+R4	0	R5	0	R6	0	R7	0	
+R8	0	R9	0	R10	0	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 0
+604: 0
+608: 0
+612: 0
+616: 0
+620: 0
+624: 0
+628: 0
+632: 0
+636: 0
+
+Total Stalls:
+*Loads	: 0
+*Branches: 0
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 0
+* DF/DS -> EX/DF : 0
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 0
+
+****Cycle #4***********************************************
+Current PC = 512:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: 20 07 00 04>
+* ID : SW R6, 600(R0)
+* RF : ADDI R6, R0, #1
+* EX : ADDI R8, R0, #44
+* DF : NOP 
+* DS : NOP 
+* WB : NOP 
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (ADDI R6, R0, #1) to (SW R6, 600(R0))
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 516
+* IS/ID.IR		: <20 07 00 04>
+* RF/EX.A		: 0
+* RF/EX.B		: 0
+* EX/DF.ALUout	: 44
+* EX/DF.B		: 0
+* DS/WB.ALUout-LMD	: 0
+
+Integer registers:
+R0	0	R1	0	R2	0	R3	0	
+R4	0	R5	0	R6	0	R7	0	
+R8	0	R9	0	R10	0	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 0
+604: 0
+608: 0
+612: 0
+616: 0
+620: 0
+624: 0
+628: 0
+632: 0
+636: 0
+
+Total Stalls:
+*Loads	: 0
+*Branches: 0
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 0
+* DF/DS -> EX/DF : 0
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 0
+
+****Cycle #5***********************************************
+Current PC = 516:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: AC E6 02 58>
+* ID : ADDI R7, R0, #4
+* RF : SW R6, 600(R0)
+* EX : ADDI R6, R0, #1
+* DF : ADDI R8, R0, #44
+* DS : NOP 
+* WB : NOP 
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (none)
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 520
+* IS/ID.IR		: <AC E6 02 58>
+* RF/EX.A		: 0
+* RF/EX.B		: 0
+* EX/DF.ALUout	: 1
+* EX/DF.B		: 0
+* DS/WB.ALUout-LMD	: 0
+
+Integer registers:
+R0	0	R1	0	R2	0	R3	0	
+R4	0	R5	0	R6	0	R7	0	
+R8	0	R9	0	R10	0	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 0
+604: 0
+608: 0
+612: 0
+616: 0
+620: 0
+624: 0
+628: 0
+632: 0
+636: 0
+
+Total Stalls:
+*Loads	: 0
+*Branches: 0
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 0
+* DF/DS -> EX/DF : 0
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 0
+
+****Cycle #6***********************************************
+Current PC = 520:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: 20 0A 00 08>
+* ID : SW R6, 600(R7)
+* RF : ADDI R7, R0, #4
+* EX : SW R6, 600(R0)
+* DF : ADDI R6, R0, #1
+* DS : ADDI R8, R0, #44
+* WB : NOP 
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (ADDI R7, R0, #4) to (SW R6, 600(R7))
+	(ADDI R6, R0, #1) to (SW R6, 600(R7))
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 524
+* IS/ID.IR		: <20 0A 00 08>
+* RF/EX.A		: 0
+* RF/EX.B		: 0
+* EX/DF.ALUout	: 600
+* EX/DF.B		: 0
+* DS/WB.ALUout-LMD	: 44
+
+Integer registers:
+R0	0	R1	0	R2	0	R3	0	
+R4	0	R5	0	R6	0	R7	0	
+R8	0	R9	0	R10	0	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 0
+604: 0
+608: 0
+612: 0
+616: 0
+620: 0
+624: 0
+628: 0
+632: 0
+636: 0
+
+Total Stalls:
+*Loads	: 0
+*Branches: 0
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 0
+* DF/DS -> EX/DF : 0
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 0
+
+****Cycle #7***********************************************
+Current PC = 524:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: 21 43 FF F8>
+* ID : ADDI R10, R0, #8
+* RF : SW R6, 600(R7)
+* EX : ADDI R7, R0, #4
+* DF : SW R6, 600(R0)
+* DS : ADDI R6, R0, #1
+* WB : ADDI R8, R0, #44
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (none)
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (ADDI R6, R0, #1) to (SW R6, 600(R0))
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 528
+* IS/ID.IR		: <21 43 FF F8>
+* RF/EX.A		: 0
+* RF/EX.B		: 0
+* EX/DF.ALUout	: 4
+* EX/DF.B		: 0
+* DS/WB.ALUout-LMD	: 1
+
+Integer registers:
+R0	0	R1	0	R2	0	R3	0	
+R4	0	R5	0	R6	0	R7	0	
+R8	44	R9	0	R10	0	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 0
+604: 0
+608: 0
+612: 0
+616: 0
+620: 0
+624: 0
+628: 0
+632: 0
+636: 0
+
+Total Stalls:
+*Loads	: 0
+*Branches: 0
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 0
+* DF/DS -> EX/DF : 1
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 0
+
+****Cycle #8***********************************************
+Current PC = 528:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: 8C 61 02 58>
+* ID : ADDI R3, R10, #-8
+* RF : ADDI R10, R0, #8
+* EX : SW R6, 600(R7)
+* DF : ADDI R7, R0, #4
+* DS : SW R6, 600(R0)
+* WB : ADDI R6, R0, #1
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (ADDI R10, R0, #8) to (ADDI R3, R10, #-8)
+ Forwarding:
+ * EX/DF -> RF/EX : (ADDI R7, R0, #4) to (SW R6, 600(R7))
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 532
+* IS/ID.IR		: <8C 61 02 58>
+* RF/EX.A		: 0
+* RF/EX.B		: 0
+* EX/DF.ALUout	: 604
+* EX/DF.B		: 0
+* DS/WB.ALUout-LMD	: 0
+
+Integer registers:
+R0	0	R1	0	R2	0	R3	0	
+R4	0	R5	0	R6	1	R7	0	
+R8	44	R9	0	R10	0	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 0
+608: 0
+612: 0
+616: 0
+620: 0
+624: 0
+628: 0
+632: 0
+636: 0
+
+Total Stalls:
+*Loads	: 0
+*Branches: 0
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 1
+* DF/DS -> EX/DF : 1
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 0
+
+****Cycle #9***********************************************
+Current PC = 532:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: 21 44 FF FC>
+* ID : LW R1, 600(R3)
+* RF : ADDI R3, R10, #-8
+* EX : ADDI R10, R0, #8
+* DF : SW R6, 600(R7)
+* DS : ADDI R7, R0, #4
+* WB : SW R6, 600(R0)
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (ADDI R3, R10, #-8) to (LW R1, 600(R3))
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 536
+* IS/ID.IR		: <21 44 FF FC>
+* RF/EX.A		: 0
+* RF/EX.B		: 0
+* EX/DF.ALUout	: 8
+* EX/DF.B		: 0
+* DS/WB.ALUout-LMD	: 4
+
+Integer registers:
+R0	0	R1	0	R2	0	R3	0	
+R4	0	R5	0	R6	1	R7	0	
+R8	44	R9	0	R10	0	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 0
+608: 0
+612: 0
+616: 0
+620: 0
+624: 0
+628: 0
+632: 0
+636: 0
+
+Total Stalls:
+*Loads	: 0
+*Branches: 0
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 1
+* DF/DS -> EX/DF : 1
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 0
+
+****Cycle #10***********************************************
+Current PC = 536:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: 8C 82 02 58>
+* ID : ADDI R4, R10, #-4
+* RF : LW R1, 600(R3)
+* EX : ADDI R3, R10, #-8
+* DF : ADDI R10, R0, #8
+* DS : SW R6, 600(R7)
+* WB : ADDI R7, R0, #4
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (ADDI R10, R0, #8) to (ADDI R4, R10, #-4)
+ Forwarding:
+ * EX/DF -> RF/EX : (ADDI R10, R0, #8) to (ADDI R3, R10, #-8)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 540
+* IS/ID.IR		: <8C 82 02 58>
+* RF/EX.A		: 0
+* RF/EX.B		: 0
+* EX/DF.ALUout	: 0
+* EX/DF.B		: 0
+* DS/WB.ALUout-LMD	: 0
+
+Integer registers:
+R0	0	R1	0	R2	0	R3	0	
+R4	0	R5	0	R6	1	R7	4	
+R8	44	R9	0	R10	0	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 0
+612: 0
+616: 0
+620: 0
+624: 0
+628: 0
+632: 0
+636: 0
+
+Total Stalls:
+*Loads	: 0
+*Branches: 0
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 2
+* DF/DS -> EX/DF : 1
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 0
+
+****Cycle #11***********************************************
+Current PC = 540:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: 00 22 28 20>
+* ID : LW R2, 600(R4)
+* RF : ADDI R4, R10, #-4
+* EX : LW R1, 600(R3)
+* DF : ADDI R3, R10, #-8
+* DS : ADDI R10, R0, #8
+* WB : SW R6, 600(R7)
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (ADDI R4, R10, #-4) to (LW R2, 600(R4))
+ Forwarding:
+ * EX/DF -> RF/EX : (ADDI R3, R10, #-8) to (LW R1, 600(R3))
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 544
+* IS/ID.IR		: <00 22 28 20>
+* RF/EX.A		: 0
+* RF/EX.B		: 0
+* EX/DF.ALUout	: 600
+* EX/DF.B		: 0
+* DS/WB.ALUout-LMD	: 8
+
+Integer registers:
+R0	0	R1	0	R2	0	R3	0	
+R4	0	R5	0	R6	1	R7	4	
+R8	44	R9	0	R10	0	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 0
+612: 0
+616: 0
+620: 0
+624: 0
+628: 0
+632: 0
+636: 0
+
+Total Stalls:
+*Loads	: 0
+*Branches: 0
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 3
+* DF/DS -> EX/DF : 1
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 0
+
+****Cycle #12***********************************************
+Current PC = 544:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: AD 45 02 58>
+* ID : ADD R5, R1, R2
+* RF : LW R2, 600(R4)
+* EX : ADDI R4, R10, #-4
+* DF : LW R1, 600(R3)
+* DS : ADDI R3, R10, #-8
+* WB : ADDI R10, R0, #8
+
+Stall Instruction: ADD R5, R1, R2
+
+Forwarded:
+ Detected: (none)
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (ADDI R10, R0, #8) to (ADDI R4, R10, #-4)
+
+Pipeline Registers:
+* IF/IS.NPC		: 548
+* IS/ID.IR		: <AD 45 02 58>
+* RF/EX.A		: 0
+* RF/EX.B		: 0
+* EX/DF.ALUout	: 4
+* EX/DF.B		: 0
+* DS/WB.ALUout-LMD	: 0
+
+Integer registers:
+R0	0	R1	0	R2	0	R3	0	
+R4	0	R5	0	R6	1	R7	4	
+R8	44	R9	0	R10	8	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 0
+612: 0
+616: 0
+620: 0
+624: 0
+628: 0
+632: 0
+636: 0
+
+Total Stalls:
+*Loads	: 0
+*Branches: 0
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 3
+* DF/DS -> EX/DF : 1
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 1
+
+****Cycle #13***********************************************
+Current PC = 544:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: AD 45 02 58>
+* ID : ADD R5, R1, R2
+* RF : **STALL** 
+* EX : LW R2, 600(R4)
+* DF : ADDI R4, R10, #-4
+* DS : LW R1, 600(R3)
+* WB : ADDI R3, R10, #-8
+
+Stall Instruction: ADD R5, R1, R2
+
+Forwarded:
+ Detected: (none)
+ Forwarding:
+ * EX/DF -> RF/EX : (ADDI R4, R10, #-4) to (LW R2, 600(R4))
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 548
+* IS/ID.IR		: <AD 45 02 58>
+* RF/EX.A		: 0
+* RF/EX.B		: 0
+* EX/DF.ALUout	: 604
+* EX/DF.B		: 0
+* DS/WB.ALUout-LMD	: 1
+
+Integer registers:
+R0	0	R1	0	R2	0	R3	0	
+R4	0	R5	0	R6	1	R7	4	
+R8	44	R9	0	R10	8	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 0
+612: 0
+616: 0
+620: 0
+624: 0
+628: 0
+632: 0
+636: 0
+
+Total Stalls:
+*Loads	: 1
+*Branches: 0
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 4
+* DF/DS -> EX/DF : 1
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 1
+
+****Cycle #14***********************************************
+Current PC = 544:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: AD 45 02 58>
+* ID : ADD R5, R1, R2
+* RF : **STALL** 
+* EX : **STALL** 
+* DF : LW R2, 600(R4)
+* DS : ADDI R4, R10, #-4
+* WB : LW R1, 600(R3)
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (none)
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 548
+* IS/ID.IR		: <AD 45 02 58>
+* RF/EX.A		: 0
+* RF/EX.B		: 0
+* EX/DF.ALUout	: 0
+* EX/DF.B		: 0
+* DS/WB.ALUout-LMD	: 4
+
+Integer registers:
+R0	0	R1	1	R2	0	R3	0	
+R4	0	R5	0	R6	1	R7	4	
+R8	44	R9	0	R10	8	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 0
+612: 0
+616: 0
+620: 0
+624: 0
+628: 0
+632: 0
+636: 0
+
+Total Stalls:
+*Loads	: 2
+*Branches: 0
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 4
+* DF/DS -> EX/DF : 1
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 1
+
+****Cycle #15***********************************************
+Current PC = 548:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: 21 4A 00 04>
+* ID : SW R5, 600(R10)
+* RF : ADD R5, R1, R2
+* EX : **STALL** 
+* DF : **STALL** 
+* DS : LW R2, 600(R4)
+* WB : ADDI R4, R10, #-4
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (ADD R5, R1, R2) to (SW R5, 600(R10))
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 552
+* IS/ID.IR		: <21 4A 00 04>
+* RF/EX.A		: 1
+* RF/EX.B		: 0
+* EX/DF.ALUout	: 0
+* EX/DF.B		: 0
+* DS/WB.ALUout-LMD	: 1
+
+Integer registers:
+R0	0	R1	1	R2	0	R3	0	
+R4	4	R5	0	R6	1	R7	4	
+R8	44	R9	0	R10	8	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 0
+612: 0
+616: 0
+620: 0
+624: 0
+628: 0
+632: 0
+636: 0
+
+Total Stalls:
+*Loads	: 2
+*Branches: 0
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 4
+* DF/DS -> EX/DF : 1
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 1
+
+****Cycle #16***********************************************
+Current PC = 552:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: 11 48 00 01>
+* ID : ADDI R10, R10, #4
+* RF : SW R5, 600(R10)
+* EX : ADD R5, R1, R2
+* DF : **STALL** 
+* DS : **STALL** 
+* WB : LW R2, 600(R4)
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (none)
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (LW R2, 600(R4)) to (ADD R5, R1, R2)
+
+Pipeline Registers:
+* IF/IS.NPC		: 556
+* IS/ID.IR		: <11 48 00 01>
+* RF/EX.A		: 8
+* RF/EX.B		: 0
+* EX/DF.ALUout	: 2
+* EX/DF.B		: 0
+* DS/WB.ALUout-LMD	: 0
+
+Integer registers:
+R0	0	R1	1	R2	1	R3	0	
+R4	4	R5	0	R6	1	R7	4	
+R8	44	R9	0	R10	8	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 0
+612: 0
+616: 0
+620: 0
+624: 0
+628: 0
+632: 0
+636: 0
+
+Total Stalls:
+*Loads	: 2
+*Branches: 0
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 4
+* DF/DS -> EX/DF : 1
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 2
+
+****Cycle #17***********************************************
+Current PC = 556:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: 08 00 00 82>
+* ID : BEQ R10, R8, #4
+* RF : ADDI R10, R10, #4
+* EX : SW R5, 600(R10)
+* DF : ADD R5, R1, R2
+* DS : **STALL** 
+* WB : **STALL** 
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (ADDI R10, R10, #4) to (BEQ R10, R8, #4)
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 560
+* IS/ID.IR		: <08 00 00 82>
+* RF/EX.A		: 8
+* RF/EX.B		: 8
+* EX/DF.ALUout	: 608
+* EX/DF.B		: 0
+* DS/WB.ALUout-LMD	: 0
+
+Integer registers:
+R0	0	R1	1	R2	1	R3	0	
+R4	4	R5	0	R6	1	R7	4	
+R8	44	R9	0	R10	8	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 0
+612: 0
+616: 0
+620: 0
+624: 0
+628: 0
+632: 0
+636: 0
+
+Total Stalls:
+*Loads	: 2
+*Branches: 0
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 4
+* DF/DS -> EX/DF : 1
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 2
+
+****Cycle #18***********************************************
+Current PC = 560:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : NOP
+* ID : J #520
+* RF : BEQ R10, R8, #4
+* EX : ADDI R10, R10, #4
+* DF : SW R5, 600(R10)
+* DS : ADD R5, R1, R2
+* WB : **STALL** 
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (none)
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (ADD R5, R1, R2) to (SW R5, 600(R10))
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 564
+* IS/ID.IR		: <00 00 00 00>
+* RF/EX.A		: 8
+* RF/EX.B		: 44
+* EX/DF.ALUout	: 12
+* EX/DF.B		: 8
+* DS/WB.ALUout-LMD	: 2
+
+Integer registers:
+R0	0	R1	1	R2	1	R3	0	
+R4	4	R5	0	R6	1	R7	4	
+R8	44	R9	0	R10	8	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 0
+612: 0
+616: 0
+620: 0
+624: 0
+628: 0
+632: 0
+636: 0
+
+Total Stalls:
+*Loads	: 2
+*Branches: 0
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 4
+* DF/DS -> EX/DF : 2
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 2
+
+****Cycle #19***********************************************
+Current PC = 564:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: 00 00 00 0D>
+* ID : NOP 
+* RF : J #520
+* EX : BEQ R10, R8, #4
+* DF : ADDI R10, R10, #4
+* DS : SW R5, 600(R10)
+* WB : ADD R5, R1, R2
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (none)
+ Forwarding:
+ * EX/DF -> RF/EX : (ADDI R10, R10, #4) to (BEQ R10, R8, #4)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 568
+* IS/ID.IR		: <00 00 00 0D>
+* RF/EX.A		: 0
+* RF/EX.B		: 0
+* EX/DF.ALUout	: 556
+* EX/DF.B		: 44
+* DS/WB.ALUout-LMD	: 0
+
+Integer registers:
+R0	0	R1	1	R2	1	R3	0	
+R4	4	R5	2	R6	1	R7	4	
+R8	44	R9	0	R10	8	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 0
+616: 0
+620: 0
+624: 0
+628: 0
+632: 0
+636: 0
+
+Total Stalls:
+*Loads	: 2
+*Branches: 0
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 5
+* DF/DS -> EX/DF : 2
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 2
+
+****Cycle #20***********************************************
+Current PC = 568:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : NOP
+* ID : BREAK 
+* RF : NOP 
+* EX : J #520
+* DF : BEQ R10, R8, #4
+* DS : ADDI R10, R10, #4
+* WB : SW R5, 600(R10)
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (none)
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 572
+* IS/ID.IR		: <00 00 00 00>
+* RF/EX.A		: 0
+* RF/EX.B		: 0
+* EX/DF.ALUout	: 520
+* EX/DF.B		: 0
+* DS/WB.ALUout-LMD	: 12
+
+Integer registers:
+R0	0	R1	1	R2	1	R3	0	
+R4	4	R5	2	R6	1	R7	4	
+R8	44	R9	0	R10	8	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 0
+616: 0
+620: 0
+624: 0
+628: 0
+632: 0
+636: 0
+
+Total Stalls:
+*Loads	: 2
+*Branches: 0
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 5
+* DF/DS -> EX/DF : 2
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 2
+
+****Cycle #21***********************************************
+Current PC = 520:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : **STALL**
+* ID : **STALL** 
+* RF : **STALL** 
+* EX : **STALL** 
+* DF : J #520
+* DS : BEQ R10, R8, #4
+* WB : ADDI R10, R10, #4
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (none)
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 524
+* IS/ID.IR		: <00 00 00 00>
+* RF/EX.A		: 0
+* RF/EX.B		: 0
+* EX/DF.ALUout	: 0
+* EX/DF.B		: 0
+* DS/WB.ALUout-LMD	: 556
+
+Integer registers:
+R0	0	R1	1	R2	1	R3	0	
+R4	4	R5	2	R6	1	R7	4	
+R8	44	R9	0	R10	12	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 0
+616: 0
+620: 0
+624: 0
+628: 0
+632: 0
+636: 0
+
+Total Stalls:
+*Loads	: 2
+*Branches: 4
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 5
+* DF/DS -> EX/DF : 2
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 2
+
+****Cycle #22***********************************************
+Current PC = 524:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: 21 43 FF F8>
+* ID : **STALL** 
+* RF : **STALL** 
+* EX : **STALL** 
+* DF : **STALL** 
+* DS : J #520
+* WB : BEQ R10, R8, #4
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (none)
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 528
+* IS/ID.IR		: <21 43 FF F8>
+* RF/EX.A		: 0
+* RF/EX.B		: 0
+* EX/DF.ALUout	: 0
+* EX/DF.B		: 0
+* DS/WB.ALUout-LMD	: 520
+
+Integer registers:
+R0	0	R1	1	R2	1	R3	0	
+R4	4	R5	2	R6	1	R7	4	
+R8	44	R9	0	R10	12	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 0
+616: 0
+620: 0
+624: 0
+628: 0
+632: 0
+636: 0
+
+Total Stalls:
+*Loads	: 2
+*Branches: 4
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 5
+* DF/DS -> EX/DF : 2
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 2
+
+****Cycle #23***********************************************
+Current PC = 528:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: 8C 61 02 58>
+* ID : ADDI R3, R10, #-8
+* RF : **STALL** 
+* EX : **STALL** 
+* DF : **STALL** 
+* DS : **STALL** 
+* WB : J #520
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (none)
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 532
+* IS/ID.IR		: <8C 61 02 58>
+* RF/EX.A		: 0
+* RF/EX.B		: 0
+* EX/DF.ALUout	: 0
+* EX/DF.B		: 0
+* DS/WB.ALUout-LMD	: 0
+
+Integer registers:
+R0	0	R1	1	R2	1	R3	0	
+R4	4	R5	2	R6	1	R7	4	
+R8	44	R9	0	R10	12	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 0
+616: 0
+620: 0
+624: 0
+628: 0
+632: 0
+636: 0
+
+Total Stalls:
+*Loads	: 2
+*Branches: 4
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 5
+* DF/DS -> EX/DF : 2
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 2
+
+****Cycle #24***********************************************
+Current PC = 532:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: 21 44 FF FC>
+* ID : LW R1, 600(R3)
+* RF : ADDI R3, R10, #-8
+* EX : **STALL** 
+* DF : **STALL** 
+* DS : **STALL** 
+* WB : **STALL** 
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (ADDI R3, R10, #-8) to (LW R1, 600(R3))
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 536
+* IS/ID.IR		: <21 44 FF FC>
+* RF/EX.A		: 12
+* RF/EX.B		: 0
+* EX/DF.ALUout	: 0
+* EX/DF.B		: 0
+* DS/WB.ALUout-LMD	: 0
+
+Integer registers:
+R0	0	R1	1	R2	1	R3	0	
+R4	4	R5	2	R6	1	R7	4	
+R8	44	R9	0	R10	12	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 0
+616: 0
+620: 0
+624: 0
+628: 0
+632: 0
+636: 0
+
+Total Stalls:
+*Loads	: 2
+*Branches: 4
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 5
+* DF/DS -> EX/DF : 2
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 2
+
+****Cycle #25***********************************************
+Current PC = 536:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: 8C 82 02 58>
+* ID : ADDI R4, R10, #-4
+* RF : LW R1, 600(R3)
+* EX : ADDI R3, R10, #-8
+* DF : **STALL** 
+* DS : **STALL** 
+* WB : **STALL** 
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (none)
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 540
+* IS/ID.IR		: <8C 82 02 58>
+* RF/EX.A		: 0
+* RF/EX.B		: 1
+* EX/DF.ALUout	: 4
+* EX/DF.B		: 0
+* DS/WB.ALUout-LMD	: 0
+
+Integer registers:
+R0	0	R1	1	R2	1	R3	0	
+R4	4	R5	2	R6	1	R7	4	
+R8	44	R9	0	R10	12	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 0
+616: 0
+620: 0
+624: 0
+628: 0
+632: 0
+636: 0
+
+Total Stalls:
+*Loads	: 2
+*Branches: 4
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 5
+* DF/DS -> EX/DF : 2
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 2
+
+****Cycle #26***********************************************
+Current PC = 540:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: 00 22 28 20>
+* ID : LW R2, 600(R4)
+* RF : ADDI R4, R10, #-4
+* EX : LW R1, 600(R3)
+* DF : ADDI R3, R10, #-8
+* DS : **STALL** 
+* WB : **STALL** 
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (ADDI R4, R10, #-4) to (LW R2, 600(R4))
+ Forwarding:
+ * EX/DF -> RF/EX : (ADDI R3, R10, #-8) to (LW R1, 600(R3))
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 544
+* IS/ID.IR		: <00 22 28 20>
+* RF/EX.A		: 12
+* RF/EX.B		: 4
+* EX/DF.ALUout	: 604
+* EX/DF.B		: 1
+* DS/WB.ALUout-LMD	: 0
+
+Integer registers:
+R0	0	R1	1	R2	1	R3	0	
+R4	4	R5	2	R6	1	R7	4	
+R8	44	R9	0	R10	12	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 0
+616: 0
+620: 0
+624: 0
+628: 0
+632: 0
+636: 0
+
+Total Stalls:
+*Loads	: 2
+*Branches: 4
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 6
+* DF/DS -> EX/DF : 2
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 2
+
+****Cycle #27***********************************************
+Current PC = 544:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: AD 45 02 58>
+* ID : ADD R5, R1, R2
+* RF : LW R2, 600(R4)
+* EX : ADDI R4, R10, #-4
+* DF : LW R1, 600(R3)
+* DS : ADDI R3, R10, #-8
+* WB : **STALL** 
+
+Stall Instruction: ADD R5, R1, R2
+
+Forwarded:
+ Detected: (none)
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 548
+* IS/ID.IR		: <AD 45 02 58>
+* RF/EX.A		: 4
+* RF/EX.B		: 1
+* EX/DF.ALUout	: 8
+* EX/DF.B		: 4
+* DS/WB.ALUout-LMD	: 4
+
+Integer registers:
+R0	0	R1	1	R2	1	R3	0	
+R4	4	R5	2	R6	1	R7	4	
+R8	44	R9	0	R10	12	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 0
+616: 0
+620: 0
+624: 0
+628: 0
+632: 0
+636: 0
+
+Total Stalls:
+*Loads	: 2
+*Branches: 4
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 6
+* DF/DS -> EX/DF : 2
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 2
+
+****Cycle #28***********************************************
+Current PC = 544:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: AD 45 02 58>
+* ID : ADD R5, R1, R2
+* RF : **STALL** 
+* EX : LW R2, 600(R4)
+* DF : ADDI R4, R10, #-4
+* DS : LW R1, 600(R3)
+* WB : ADDI R3, R10, #-8
+
+Stall Instruction: ADD R5, R1, R2
+
+Forwarded:
+ Detected: (none)
+ Forwarding:
+ * EX/DF -> RF/EX : (ADDI R4, R10, #-4) to (LW R2, 600(R4))
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 548
+* IS/ID.IR		: <AD 45 02 58>
+* RF/EX.A		: 0
+* RF/EX.B		: 0
+* EX/DF.ALUout	: 608
+* EX/DF.B		: 1
+* DS/WB.ALUout-LMD	: 1
+
+Integer registers:
+R0	0	R1	1	R2	1	R3	4	
+R4	4	R5	2	R6	1	R7	4	
+R8	44	R9	0	R10	12	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 0
+616: 0
+620: 0
+624: 0
+628: 0
+632: 0
+636: 0
+
+Total Stalls:
+*Loads	: 3
+*Branches: 4
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 7
+* DF/DS -> EX/DF : 2
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 2
+
+****Cycle #29***********************************************
+Current PC = 544:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: AD 45 02 58>
+* ID : ADD R5, R1, R2
+* RF : **STALL** 
+* EX : **STALL** 
+* DF : LW R2, 600(R4)
+* DS : ADDI R4, R10, #-4
+* WB : LW R1, 600(R3)
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (none)
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 548
+* IS/ID.IR		: <AD 45 02 58>
+* RF/EX.A		: 0
+* RF/EX.B		: 0
+* EX/DF.ALUout	: 0
+* EX/DF.B		: 0
+* DS/WB.ALUout-LMD	: 8
+
+Integer registers:
+R0	0	R1	1	R2	1	R3	4	
+R4	4	R5	2	R6	1	R7	4	
+R8	44	R9	0	R10	12	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 0
+616: 0
+620: 0
+624: 0
+628: 0
+632: 0
+636: 0
+
+Total Stalls:
+*Loads	: 4
+*Branches: 4
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 7
+* DF/DS -> EX/DF : 2
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 2
+
+****Cycle #30***********************************************
+Current PC = 548:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: 21 4A 00 04>
+* ID : SW R5, 600(R10)
+* RF : ADD R5, R1, R2
+* EX : **STALL** 
+* DF : **STALL** 
+* DS : LW R2, 600(R4)
+* WB : ADDI R4, R10, #-4
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (ADD R5, R1, R2) to (SW R5, 600(R10))
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 552
+* IS/ID.IR		: <21 4A 00 04>
+* RF/EX.A		: 1
+* RF/EX.B		: 1
+* EX/DF.ALUout	: 0
+* EX/DF.B		: 0
+* DS/WB.ALUout-LMD	: 2
+
+Integer registers:
+R0	0	R1	1	R2	1	R3	4	
+R4	8	R5	2	R6	1	R7	4	
+R8	44	R9	0	R10	12	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 0
+616: 0
+620: 0
+624: 0
+628: 0
+632: 0
+636: 0
+
+Total Stalls:
+*Loads	: 4
+*Branches: 4
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 7
+* DF/DS -> EX/DF : 2
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 2
+
+****Cycle #31***********************************************
+Current PC = 552:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: 11 48 00 01>
+* ID : ADDI R10, R10, #4
+* RF : SW R5, 600(R10)
+* EX : ADD R5, R1, R2
+* DF : **STALL** 
+* DS : **STALL** 
+* WB : LW R2, 600(R4)
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (none)
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (LW R2, 600(R4)) to (ADD R5, R1, R2)
+
+Pipeline Registers:
+* IF/IS.NPC		: 556
+* IS/ID.IR		: <11 48 00 01>
+* RF/EX.A		: 12
+* RF/EX.B		: 2
+* EX/DF.ALUout	: 3
+* EX/DF.B		: 1
+* DS/WB.ALUout-LMD	: 0
+
+Integer registers:
+R0	0	R1	1	R2	2	R3	4	
+R4	8	R5	2	R6	1	R7	4	
+R8	44	R9	0	R10	12	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 0
+616: 0
+620: 0
+624: 0
+628: 0
+632: 0
+636: 0
+
+Total Stalls:
+*Loads	: 4
+*Branches: 4
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 7
+* DF/DS -> EX/DF : 2
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 3
+
+****Cycle #32***********************************************
+Current PC = 556:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: 08 00 00 82>
+* ID : BEQ R10, R8, #4
+* RF : ADDI R10, R10, #4
+* EX : SW R5, 600(R10)
+* DF : ADD R5, R1, R2
+* DS : **STALL** 
+* WB : **STALL** 
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (ADDI R10, R10, #4) to (BEQ R10, R8, #4)
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 560
+* IS/ID.IR		: <08 00 00 82>
+* RF/EX.A		: 12
+* RF/EX.B		: 12
+* EX/DF.ALUout	: 612
+* EX/DF.B		: 2
+* DS/WB.ALUout-LMD	: 0
+
+Integer registers:
+R0	0	R1	1	R2	2	R3	4	
+R4	8	R5	2	R6	1	R7	4	
+R8	44	R9	0	R10	12	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 0
+616: 0
+620: 0
+624: 0
+628: 0
+632: 0
+636: 0
+
+Total Stalls:
+*Loads	: 4
+*Branches: 4
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 7
+* DF/DS -> EX/DF : 2
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 3
+
+****Cycle #33***********************************************
+Current PC = 560:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : NOP
+* ID : J #520
+* RF : BEQ R10, R8, #4
+* EX : ADDI R10, R10, #4
+* DF : SW R5, 600(R10)
+* DS : ADD R5, R1, R2
+* WB : **STALL** 
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (none)
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (ADD R5, R1, R2) to (SW R5, 600(R10))
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 564
+* IS/ID.IR		: <00 00 00 00>
+* RF/EX.A		: 12
+* RF/EX.B		: 44
+* EX/DF.ALUout	: 16
+* EX/DF.B		: 12
+* DS/WB.ALUout-LMD	: 3
+
+Integer registers:
+R0	0	R1	1	R2	2	R3	4	
+R4	8	R5	2	R6	1	R7	4	
+R8	44	R9	0	R10	12	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 0
+616: 0
+620: 0
+624: 0
+628: 0
+632: 0
+636: 0
+
+Total Stalls:
+*Loads	: 4
+*Branches: 4
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 7
+* DF/DS -> EX/DF : 3
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 3
+
+****Cycle #34***********************************************
+Current PC = 564:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: 00 00 00 0D>
+* ID : NOP 
+* RF : J #520
+* EX : BEQ R10, R8, #4
+* DF : ADDI R10, R10, #4
+* DS : SW R5, 600(R10)
+* WB : ADD R5, R1, R2
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (none)
+ Forwarding:
+ * EX/DF -> RF/EX : (ADDI R10, R10, #4) to (BEQ R10, R8, #4)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 568
+* IS/ID.IR		: <00 00 00 0D>
+* RF/EX.A		: 0
+* RF/EX.B		: 0
+* EX/DF.ALUout	: 556
+* EX/DF.B		: 44
+* DS/WB.ALUout-LMD	: 0
+
+Integer registers:
+R0	0	R1	1	R2	2	R3	4	
+R4	8	R5	3	R6	1	R7	4	
+R8	44	R9	0	R10	12	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 0
+620: 0
+624: 0
+628: 0
+632: 0
+636: 0
+
+Total Stalls:
+*Loads	: 4
+*Branches: 4
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 8
+* DF/DS -> EX/DF : 3
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 3
+
+****Cycle #35***********************************************
+Current PC = 568:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : NOP
+* ID : BREAK 
+* RF : NOP 
+* EX : J #520
+* DF : BEQ R10, R8, #4
+* DS : ADDI R10, R10, #4
+* WB : SW R5, 600(R10)
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (none)
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 572
+* IS/ID.IR		: <00 00 00 00>
+* RF/EX.A		: 0
+* RF/EX.B		: 0
+* EX/DF.ALUout	: 520
+* EX/DF.B		: 0
+* DS/WB.ALUout-LMD	: 16
+
+Integer registers:
+R0	0	R1	1	R2	2	R3	4	
+R4	8	R5	3	R6	1	R7	4	
+R8	44	R9	0	R10	12	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 0
+620: 0
+624: 0
+628: 0
+632: 0
+636: 0
+
+Total Stalls:
+*Loads	: 4
+*Branches: 4
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 8
+* DF/DS -> EX/DF : 3
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 3
+
+****Cycle #36***********************************************
+Current PC = 520:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : **STALL**
+* ID : **STALL** 
+* RF : **STALL** 
+* EX : **STALL** 
+* DF : J #520
+* DS : BEQ R10, R8, #4
+* WB : ADDI R10, R10, #4
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (none)
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 524
+* IS/ID.IR		: <00 00 00 00>
+* RF/EX.A		: 0
+* RF/EX.B		: 0
+* EX/DF.ALUout	: 0
+* EX/DF.B		: 0
+* DS/WB.ALUout-LMD	: 556
+
+Integer registers:
+R0	0	R1	1	R2	2	R3	4	
+R4	8	R5	3	R6	1	R7	4	
+R8	44	R9	0	R10	16	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 0
+620: 0
+624: 0
+628: 0
+632: 0
+636: 0
+
+Total Stalls:
+*Loads	: 4
+*Branches: 8
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 8
+* DF/DS -> EX/DF : 3
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 3
+
+****Cycle #37***********************************************
+Current PC = 524:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: 21 43 FF F8>
+* ID : **STALL** 
+* RF : **STALL** 
+* EX : **STALL** 
+* DF : **STALL** 
+* DS : J #520
+* WB : BEQ R10, R8, #4
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (none)
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 528
+* IS/ID.IR		: <21 43 FF F8>
+* RF/EX.A		: 0
+* RF/EX.B		: 0
+* EX/DF.ALUout	: 0
+* EX/DF.B		: 0
+* DS/WB.ALUout-LMD	: 520
+
+Integer registers:
+R0	0	R1	1	R2	2	R3	4	
+R4	8	R5	3	R6	1	R7	4	
+R8	44	R9	0	R10	16	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 0
+620: 0
+624: 0
+628: 0
+632: 0
+636: 0
+
+Total Stalls:
+*Loads	: 4
+*Branches: 8
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 8
+* DF/DS -> EX/DF : 3
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 3
+
+****Cycle #38***********************************************
+Current PC = 528:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: 8C 61 02 58>
+* ID : ADDI R3, R10, #-8
+* RF : **STALL** 
+* EX : **STALL** 
+* DF : **STALL** 
+* DS : **STALL** 
+* WB : J #520
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (none)
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 532
+* IS/ID.IR		: <8C 61 02 58>
+* RF/EX.A		: 0
+* RF/EX.B		: 0
+* EX/DF.ALUout	: 0
+* EX/DF.B		: 0
+* DS/WB.ALUout-LMD	: 0
+
+Integer registers:
+R0	0	R1	1	R2	2	R3	4	
+R4	8	R5	3	R6	1	R7	4	
+R8	44	R9	0	R10	16	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 0
+620: 0
+624: 0
+628: 0
+632: 0
+636: 0
+
+Total Stalls:
+*Loads	: 4
+*Branches: 8
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 8
+* DF/DS -> EX/DF : 3
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 3
+
+****Cycle #39***********************************************
+Current PC = 532:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: 21 44 FF FC>
+* ID : LW R1, 600(R3)
+* RF : ADDI R3, R10, #-8
+* EX : **STALL** 
+* DF : **STALL** 
+* DS : **STALL** 
+* WB : **STALL** 
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (ADDI R3, R10, #-8) to (LW R1, 600(R3))
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 536
+* IS/ID.IR		: <21 44 FF FC>
+* RF/EX.A		: 16
+* RF/EX.B		: 4
+* EX/DF.ALUout	: 0
+* EX/DF.B		: 0
+* DS/WB.ALUout-LMD	: 0
+
+Integer registers:
+R0	0	R1	1	R2	2	R3	4	
+R4	8	R5	3	R6	1	R7	4	
+R8	44	R9	0	R10	16	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 0
+620: 0
+624: 0
+628: 0
+632: 0
+636: 0
+
+Total Stalls:
+*Loads	: 4
+*Branches: 8
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 8
+* DF/DS -> EX/DF : 3
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 3
+
+****Cycle #40***********************************************
+Current PC = 536:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: 8C 82 02 58>
+* ID : ADDI R4, R10, #-4
+* RF : LW R1, 600(R3)
+* EX : ADDI R3, R10, #-8
+* DF : **STALL** 
+* DS : **STALL** 
+* WB : **STALL** 
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (none)
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 540
+* IS/ID.IR		: <8C 82 02 58>
+* RF/EX.A		: 4
+* RF/EX.B		: 1
+* EX/DF.ALUout	: 8
+* EX/DF.B		: 4
+* DS/WB.ALUout-LMD	: 0
+
+Integer registers:
+R0	0	R1	1	R2	2	R3	4	
+R4	8	R5	3	R6	1	R7	4	
+R8	44	R9	0	R10	16	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 0
+620: 0
+624: 0
+628: 0
+632: 0
+636: 0
+
+Total Stalls:
+*Loads	: 4
+*Branches: 8
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 8
+* DF/DS -> EX/DF : 3
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 3
+
+****Cycle #41***********************************************
+Current PC = 540:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: 00 22 28 20>
+* ID : LW R2, 600(R4)
+* RF : ADDI R4, R10, #-4
+* EX : LW R1, 600(R3)
+* DF : ADDI R3, R10, #-8
+* DS : **STALL** 
+* WB : **STALL** 
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (ADDI R4, R10, #-4) to (LW R2, 600(R4))
+ Forwarding:
+ * EX/DF -> RF/EX : (ADDI R3, R10, #-8) to (LW R1, 600(R3))
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 544
+* IS/ID.IR		: <00 22 28 20>
+* RF/EX.A		: 16
+* RF/EX.B		: 8
+* EX/DF.ALUout	: 608
+* EX/DF.B		: 1
+* DS/WB.ALUout-LMD	: 0
+
+Integer registers:
+R0	0	R1	1	R2	2	R3	4	
+R4	8	R5	3	R6	1	R7	4	
+R8	44	R9	0	R10	16	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 0
+620: 0
+624: 0
+628: 0
+632: 0
+636: 0
+
+Total Stalls:
+*Loads	: 4
+*Branches: 8
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 9
+* DF/DS -> EX/DF : 3
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 3
+
+****Cycle #42***********************************************
+Current PC = 544:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: AD 45 02 58>
+* ID : ADD R5, R1, R2
+* RF : LW R2, 600(R4)
+* EX : ADDI R4, R10, #-4
+* DF : LW R1, 600(R3)
+* DS : ADDI R3, R10, #-8
+* WB : **STALL** 
+
+Stall Instruction: ADD R5, R1, R2
+
+Forwarded:
+ Detected: (none)
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 548
+* IS/ID.IR		: <AD 45 02 58>
+* RF/EX.A		: 8
+* RF/EX.B		: 2
+* EX/DF.ALUout	: 12
+* EX/DF.B		: 8
+* DS/WB.ALUout-LMD	: 8
+
+Integer registers:
+R0	0	R1	1	R2	2	R3	4	
+R4	8	R5	3	R6	1	R7	4	
+R8	44	R9	0	R10	16	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 0
+620: 0
+624: 0
+628: 0
+632: 0
+636: 0
+
+Total Stalls:
+*Loads	: 4
+*Branches: 8
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 9
+* DF/DS -> EX/DF : 3
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 3
+
+****Cycle #43***********************************************
+Current PC = 544:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: AD 45 02 58>
+* ID : ADD R5, R1, R2
+* RF : **STALL** 
+* EX : LW R2, 600(R4)
+* DF : ADDI R4, R10, #-4
+* DS : LW R1, 600(R3)
+* WB : ADDI R3, R10, #-8
+
+Stall Instruction: ADD R5, R1, R2
+
+Forwarded:
+ Detected: (none)
+ Forwarding:
+ * EX/DF -> RF/EX : (ADDI R4, R10, #-4) to (LW R2, 600(R4))
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 548
+* IS/ID.IR		: <AD 45 02 58>
+* RF/EX.A		: 0
+* RF/EX.B		: 0
+* EX/DF.ALUout	: 612
+* EX/DF.B		: 2
+* DS/WB.ALUout-LMD	: 2
+
+Integer registers:
+R0	0	R1	1	R2	2	R3	8	
+R4	8	R5	3	R6	1	R7	4	
+R8	44	R9	0	R10	16	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 0
+620: 0
+624: 0
+628: 0
+632: 0
+636: 0
+
+Total Stalls:
+*Loads	: 5
+*Branches: 8
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 10
+* DF/DS -> EX/DF : 3
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 3
+
+****Cycle #44***********************************************
+Current PC = 544:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: AD 45 02 58>
+* ID : ADD R5, R1, R2
+* RF : **STALL** 
+* EX : **STALL** 
+* DF : LW R2, 600(R4)
+* DS : ADDI R4, R10, #-4
+* WB : LW R1, 600(R3)
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (none)
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 548
+* IS/ID.IR		: <AD 45 02 58>
+* RF/EX.A		: 0
+* RF/EX.B		: 0
+* EX/DF.ALUout	: 0
+* EX/DF.B		: 0
+* DS/WB.ALUout-LMD	: 12
+
+Integer registers:
+R0	0	R1	2	R2	2	R3	8	
+R4	8	R5	3	R6	1	R7	4	
+R8	44	R9	0	R10	16	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 0
+620: 0
+624: 0
+628: 0
+632: 0
+636: 0
+
+Total Stalls:
+*Loads	: 6
+*Branches: 8
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 10
+* DF/DS -> EX/DF : 3
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 3
+
+****Cycle #45***********************************************
+Current PC = 548:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: 21 4A 00 04>
+* ID : SW R5, 600(R10)
+* RF : ADD R5, R1, R2
+* EX : **STALL** 
+* DF : **STALL** 
+* DS : LW R2, 600(R4)
+* WB : ADDI R4, R10, #-4
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (ADD R5, R1, R2) to (SW R5, 600(R10))
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 552
+* IS/ID.IR		: <21 4A 00 04>
+* RF/EX.A		: 2
+* RF/EX.B		: 2
+* EX/DF.ALUout	: 0
+* EX/DF.B		: 0
+* DS/WB.ALUout-LMD	: 3
+
+Integer registers:
+R0	0	R1	2	R2	2	R3	8	
+R4	12	R5	3	R6	1	R7	4	
+R8	44	R9	0	R10	16	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 0
+620: 0
+624: 0
+628: 0
+632: 0
+636: 0
+
+Total Stalls:
+*Loads	: 6
+*Branches: 8
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 10
+* DF/DS -> EX/DF : 3
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 3
+
+****Cycle #46***********************************************
+Current PC = 552:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: 11 48 00 01>
+* ID : ADDI R10, R10, #4
+* RF : SW R5, 600(R10)
+* EX : ADD R5, R1, R2
+* DF : **STALL** 
+* DS : **STALL** 
+* WB : LW R2, 600(R4)
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (none)
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (LW R2, 600(R4)) to (ADD R5, R1, R2)
+
+Pipeline Registers:
+* IF/IS.NPC		: 556
+* IS/ID.IR		: <11 48 00 01>
+* RF/EX.A		: 16
+* RF/EX.B		: 3
+* EX/DF.ALUout	: 5
+* EX/DF.B		: 2
+* DS/WB.ALUout-LMD	: 0
+
+Integer registers:
+R0	0	R1	2	R2	3	R3	8	
+R4	12	R5	3	R6	1	R7	4	
+R8	44	R9	0	R10	16	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 0
+620: 0
+624: 0
+628: 0
+632: 0
+636: 0
+
+Total Stalls:
+*Loads	: 6
+*Branches: 8
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 10
+* DF/DS -> EX/DF : 3
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 4
+
+****Cycle #47***********************************************
+Current PC = 556:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: 08 00 00 82>
+* ID : BEQ R10, R8, #4
+* RF : ADDI R10, R10, #4
+* EX : SW R5, 600(R10)
+* DF : ADD R5, R1, R2
+* DS : **STALL** 
+* WB : **STALL** 
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (ADDI R10, R10, #4) to (BEQ R10, R8, #4)
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 560
+* IS/ID.IR		: <08 00 00 82>
+* RF/EX.A		: 16
+* RF/EX.B		: 16
+* EX/DF.ALUout	: 616
+* EX/DF.B		: 3
+* DS/WB.ALUout-LMD	: 0
+
+Integer registers:
+R0	0	R1	2	R2	3	R3	8	
+R4	12	R5	3	R6	1	R7	4	
+R8	44	R9	0	R10	16	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 0
+620: 0
+624: 0
+628: 0
+632: 0
+636: 0
+
+Total Stalls:
+*Loads	: 6
+*Branches: 8
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 10
+* DF/DS -> EX/DF : 3
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 4
+
+****Cycle #48***********************************************
+Current PC = 560:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : NOP
+* ID : J #520
+* RF : BEQ R10, R8, #4
+* EX : ADDI R10, R10, #4
+* DF : SW R5, 600(R10)
+* DS : ADD R5, R1, R2
+* WB : **STALL** 
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (none)
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (ADD R5, R1, R2) to (SW R5, 600(R10))
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 564
+* IS/ID.IR		: <00 00 00 00>
+* RF/EX.A		: 16
+* RF/EX.B		: 44
+* EX/DF.ALUout	: 20
+* EX/DF.B		: 16
+* DS/WB.ALUout-LMD	: 5
+
+Integer registers:
+R0	0	R1	2	R2	3	R3	8	
+R4	12	R5	3	R6	1	R7	4	
+R8	44	R9	0	R10	16	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 0
+620: 0
+624: 0
+628: 0
+632: 0
+636: 0
+
+Total Stalls:
+*Loads	: 6
+*Branches: 8
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 10
+* DF/DS -> EX/DF : 4
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 4
+
+****Cycle #49***********************************************
+Current PC = 564:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: 00 00 00 0D>
+* ID : NOP 
+* RF : J #520
+* EX : BEQ R10, R8, #4
+* DF : ADDI R10, R10, #4
+* DS : SW R5, 600(R10)
+* WB : ADD R5, R1, R2
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (none)
+ Forwarding:
+ * EX/DF -> RF/EX : (ADDI R10, R10, #4) to (BEQ R10, R8, #4)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 568
+* IS/ID.IR		: <00 00 00 0D>
+* RF/EX.A		: 0
+* RF/EX.B		: 0
+* EX/DF.ALUout	: 556
+* EX/DF.B		: 44
+* DS/WB.ALUout-LMD	: 0
+
+Integer registers:
+R0	0	R1	2	R2	3	R3	8	
+R4	12	R5	5	R6	1	R7	4	
+R8	44	R9	0	R10	16	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 5
+620: 0
+624: 0
+628: 0
+632: 0
+636: 0
+
+Total Stalls:
+*Loads	: 6
+*Branches: 8
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 11
+* DF/DS -> EX/DF : 4
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 4
+
+****Cycle #50***********************************************
+Current PC = 568:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : NOP
+* ID : BREAK 
+* RF : NOP 
+* EX : J #520
+* DF : BEQ R10, R8, #4
+* DS : ADDI R10, R10, #4
+* WB : SW R5, 600(R10)
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (none)
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 572
+* IS/ID.IR		: <00 00 00 00>
+* RF/EX.A		: 0
+* RF/EX.B		: 0
+* EX/DF.ALUout	: 520
+* EX/DF.B		: 0
+* DS/WB.ALUout-LMD	: 20
+
+Integer registers:
+R0	0	R1	2	R2	3	R3	8	
+R4	12	R5	5	R6	1	R7	4	
+R8	44	R9	0	R10	16	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 5
+620: 0
+624: 0
+628: 0
+632: 0
+636: 0
+
+Total Stalls:
+*Loads	: 6
+*Branches: 8
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 11
+* DF/DS -> EX/DF : 4
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 4
+
+****Cycle #51***********************************************
+Current PC = 520:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : **STALL**
+* ID : **STALL** 
+* RF : **STALL** 
+* EX : **STALL** 
+* DF : J #520
+* DS : BEQ R10, R8, #4
+* WB : ADDI R10, R10, #4
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (none)
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 524
+* IS/ID.IR		: <00 00 00 00>
+* RF/EX.A		: 0
+* RF/EX.B		: 0
+* EX/DF.ALUout	: 0
+* EX/DF.B		: 0
+* DS/WB.ALUout-LMD	: 556
+
+Integer registers:
+R0	0	R1	2	R2	3	R3	8	
+R4	12	R5	5	R6	1	R7	4	
+R8	44	R9	0	R10	20	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 5
+620: 0
+624: 0
+628: 0
+632: 0
+636: 0
+
+Total Stalls:
+*Loads	: 6
+*Branches: 12
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 11
+* DF/DS -> EX/DF : 4
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 4
+
+****Cycle #52***********************************************
+Current PC = 524:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: 21 43 FF F8>
+* ID : **STALL** 
+* RF : **STALL** 
+* EX : **STALL** 
+* DF : **STALL** 
+* DS : J #520
+* WB : BEQ R10, R8, #4
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (none)
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 528
+* IS/ID.IR		: <21 43 FF F8>
+* RF/EX.A		: 0
+* RF/EX.B		: 0
+* EX/DF.ALUout	: 0
+* EX/DF.B		: 0
+* DS/WB.ALUout-LMD	: 520
+
+Integer registers:
+R0	0	R1	2	R2	3	R3	8	
+R4	12	R5	5	R6	1	R7	4	
+R8	44	R9	0	R10	20	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 5
+620: 0
+624: 0
+628: 0
+632: 0
+636: 0
+
+Total Stalls:
+*Loads	: 6
+*Branches: 12
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 11
+* DF/DS -> EX/DF : 4
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 4
+
+****Cycle #53***********************************************
+Current PC = 528:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: 8C 61 02 58>
+* ID : ADDI R3, R10, #-8
+* RF : **STALL** 
+* EX : **STALL** 
+* DF : **STALL** 
+* DS : **STALL** 
+* WB : J #520
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (none)
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 532
+* IS/ID.IR		: <8C 61 02 58>
+* RF/EX.A		: 0
+* RF/EX.B		: 0
+* EX/DF.ALUout	: 0
+* EX/DF.B		: 0
+* DS/WB.ALUout-LMD	: 0
+
+Integer registers:
+R0	0	R1	2	R2	3	R3	8	
+R4	12	R5	5	R6	1	R7	4	
+R8	44	R9	0	R10	20	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 5
+620: 0
+624: 0
+628: 0
+632: 0
+636: 0
+
+Total Stalls:
+*Loads	: 6
+*Branches: 12
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 11
+* DF/DS -> EX/DF : 4
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 4
+
+****Cycle #54***********************************************
+Current PC = 532:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: 21 44 FF FC>
+* ID : LW R1, 600(R3)
+* RF : ADDI R3, R10, #-8
+* EX : **STALL** 
+* DF : **STALL** 
+* DS : **STALL** 
+* WB : **STALL** 
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (ADDI R3, R10, #-8) to (LW R1, 600(R3))
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 536
+* IS/ID.IR		: <21 44 FF FC>
+* RF/EX.A		: 20
+* RF/EX.B		: 8
+* EX/DF.ALUout	: 0
+* EX/DF.B		: 0
+* DS/WB.ALUout-LMD	: 0
+
+Integer registers:
+R0	0	R1	2	R2	3	R3	8	
+R4	12	R5	5	R6	1	R7	4	
+R8	44	R9	0	R10	20	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 5
+620: 0
+624: 0
+628: 0
+632: 0
+636: 0
+
+Total Stalls:
+*Loads	: 6
+*Branches: 12
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 11
+* DF/DS -> EX/DF : 4
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 4
+
+****Cycle #55***********************************************
+Current PC = 536:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: 8C 82 02 58>
+* ID : ADDI R4, R10, #-4
+* RF : LW R1, 600(R3)
+* EX : ADDI R3, R10, #-8
+* DF : **STALL** 
+* DS : **STALL** 
+* WB : **STALL** 
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (none)
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 540
+* IS/ID.IR		: <8C 82 02 58>
+* RF/EX.A		: 8
+* RF/EX.B		: 2
+* EX/DF.ALUout	: 12
+* EX/DF.B		: 8
+* DS/WB.ALUout-LMD	: 0
+
+Integer registers:
+R0	0	R1	2	R2	3	R3	8	
+R4	12	R5	5	R6	1	R7	4	
+R8	44	R9	0	R10	20	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 5
+620: 0
+624: 0
+628: 0
+632: 0
+636: 0
+
+Total Stalls:
+*Loads	: 6
+*Branches: 12
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 11
+* DF/DS -> EX/DF : 4
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 4
+
+****Cycle #56***********************************************
+Current PC = 540:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: 00 22 28 20>
+* ID : LW R2, 600(R4)
+* RF : ADDI R4, R10, #-4
+* EX : LW R1, 600(R3)
+* DF : ADDI R3, R10, #-8
+* DS : **STALL** 
+* WB : **STALL** 
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (ADDI R4, R10, #-4) to (LW R2, 600(R4))
+ Forwarding:
+ * EX/DF -> RF/EX : (ADDI R3, R10, #-8) to (LW R1, 600(R3))
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 544
+* IS/ID.IR		: <00 22 28 20>
+* RF/EX.A		: 20
+* RF/EX.B		: 12
+* EX/DF.ALUout	: 612
+* EX/DF.B		: 2
+* DS/WB.ALUout-LMD	: 0
+
+Integer registers:
+R0	0	R1	2	R2	3	R3	8	
+R4	12	R5	5	R6	1	R7	4	
+R8	44	R9	0	R10	20	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 5
+620: 0
+624: 0
+628: 0
+632: 0
+636: 0
+
+Total Stalls:
+*Loads	: 6
+*Branches: 12
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 12
+* DF/DS -> EX/DF : 4
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 4
+
+****Cycle #57***********************************************
+Current PC = 544:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: AD 45 02 58>
+* ID : ADD R5, R1, R2
+* RF : LW R2, 600(R4)
+* EX : ADDI R4, R10, #-4
+* DF : LW R1, 600(R3)
+* DS : ADDI R3, R10, #-8
+* WB : **STALL** 
+
+Stall Instruction: ADD R5, R1, R2
+
+Forwarded:
+ Detected: (none)
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 548
+* IS/ID.IR		: <AD 45 02 58>
+* RF/EX.A		: 12
+* RF/EX.B		: 3
+* EX/DF.ALUout	: 16
+* EX/DF.B		: 12
+* DS/WB.ALUout-LMD	: 12
+
+Integer registers:
+R0	0	R1	2	R2	3	R3	8	
+R4	12	R5	5	R6	1	R7	4	
+R8	44	R9	0	R10	20	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 5
+620: 0
+624: 0
+628: 0
+632: 0
+636: 0
+
+Total Stalls:
+*Loads	: 6
+*Branches: 12
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 12
+* DF/DS -> EX/DF : 4
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 4
+
+****Cycle #58***********************************************
+Current PC = 544:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: AD 45 02 58>
+* ID : ADD R5, R1, R2
+* RF : **STALL** 
+* EX : LW R2, 600(R4)
+* DF : ADDI R4, R10, #-4
+* DS : LW R1, 600(R3)
+* WB : ADDI R3, R10, #-8
+
+Stall Instruction: ADD R5, R1, R2
+
+Forwarded:
+ Detected: (none)
+ Forwarding:
+ * EX/DF -> RF/EX : (ADDI R4, R10, #-4) to (LW R2, 600(R4))
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 548
+* IS/ID.IR		: <AD 45 02 58>
+* RF/EX.A		: 0
+* RF/EX.B		: 0
+* EX/DF.ALUout	: 616
+* EX/DF.B		: 3
+* DS/WB.ALUout-LMD	: 3
+
+Integer registers:
+R0	0	R1	2	R2	3	R3	12	
+R4	12	R5	5	R6	1	R7	4	
+R8	44	R9	0	R10	20	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 5
+620: 0
+624: 0
+628: 0
+632: 0
+636: 0
+
+Total Stalls:
+*Loads	: 7
+*Branches: 12
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 13
+* DF/DS -> EX/DF : 4
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 4
+
+****Cycle #59***********************************************
+Current PC = 544:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: AD 45 02 58>
+* ID : ADD R5, R1, R2
+* RF : **STALL** 
+* EX : **STALL** 
+* DF : LW R2, 600(R4)
+* DS : ADDI R4, R10, #-4
+* WB : LW R1, 600(R3)
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (none)
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 548
+* IS/ID.IR		: <AD 45 02 58>
+* RF/EX.A		: 0
+* RF/EX.B		: 0
+* EX/DF.ALUout	: 0
+* EX/DF.B		: 0
+* DS/WB.ALUout-LMD	: 16
+
+Integer registers:
+R0	0	R1	3	R2	3	R3	12	
+R4	12	R5	5	R6	1	R7	4	
+R8	44	R9	0	R10	20	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 5
+620: 0
+624: 0
+628: 0
+632: 0
+636: 0
+
+Total Stalls:
+*Loads	: 8
+*Branches: 12
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 13
+* DF/DS -> EX/DF : 4
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 4
+
+****Cycle #60***********************************************
+Current PC = 548:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: 21 4A 00 04>
+* ID : SW R5, 600(R10)
+* RF : ADD R5, R1, R2
+* EX : **STALL** 
+* DF : **STALL** 
+* DS : LW R2, 600(R4)
+* WB : ADDI R4, R10, #-4
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (ADD R5, R1, R2) to (SW R5, 600(R10))
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 552
+* IS/ID.IR		: <21 4A 00 04>
+* RF/EX.A		: 3
+* RF/EX.B		: 3
+* EX/DF.ALUout	: 0
+* EX/DF.B		: 0
+* DS/WB.ALUout-LMD	: 5
+
+Integer registers:
+R0	0	R1	3	R2	3	R3	12	
+R4	16	R5	5	R6	1	R7	4	
+R8	44	R9	0	R10	20	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 5
+620: 0
+624: 0
+628: 0
+632: 0
+636: 0
+
+Total Stalls:
+*Loads	: 8
+*Branches: 12
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 13
+* DF/DS -> EX/DF : 4
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 4
+
+****Cycle #61***********************************************
+Current PC = 552:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: 11 48 00 01>
+* ID : ADDI R10, R10, #4
+* RF : SW R5, 600(R10)
+* EX : ADD R5, R1, R2
+* DF : **STALL** 
+* DS : **STALL** 
+* WB : LW R2, 600(R4)
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (none)
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (LW R2, 600(R4)) to (ADD R5, R1, R2)
+
+Pipeline Registers:
+* IF/IS.NPC		: 556
+* IS/ID.IR		: <11 48 00 01>
+* RF/EX.A		: 20
+* RF/EX.B		: 5
+* EX/DF.ALUout	: 8
+* EX/DF.B		: 3
+* DS/WB.ALUout-LMD	: 0
+
+Integer registers:
+R0	0	R1	3	R2	5	R3	12	
+R4	16	R5	5	R6	1	R7	4	
+R8	44	R9	0	R10	20	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 5
+620: 0
+624: 0
+628: 0
+632: 0
+636: 0
+
+Total Stalls:
+*Loads	: 8
+*Branches: 12
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 13
+* DF/DS -> EX/DF : 4
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 5
+
+****Cycle #62***********************************************
+Current PC = 556:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: 08 00 00 82>
+* ID : BEQ R10, R8, #4
+* RF : ADDI R10, R10, #4
+* EX : SW R5, 600(R10)
+* DF : ADD R5, R1, R2
+* DS : **STALL** 
+* WB : **STALL** 
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (ADDI R10, R10, #4) to (BEQ R10, R8, #4)
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 560
+* IS/ID.IR		: <08 00 00 82>
+* RF/EX.A		: 20
+* RF/EX.B		: 20
+* EX/DF.ALUout	: 620
+* EX/DF.B		: 5
+* DS/WB.ALUout-LMD	: 0
+
+Integer registers:
+R0	0	R1	3	R2	5	R3	12	
+R4	16	R5	5	R6	1	R7	4	
+R8	44	R9	0	R10	20	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 5
+620: 0
+624: 0
+628: 0
+632: 0
+636: 0
+
+Total Stalls:
+*Loads	: 8
+*Branches: 12
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 13
+* DF/DS -> EX/DF : 4
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 5
+
+****Cycle #63***********************************************
+Current PC = 560:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : NOP
+* ID : J #520
+* RF : BEQ R10, R8, #4
+* EX : ADDI R10, R10, #4
+* DF : SW R5, 600(R10)
+* DS : ADD R5, R1, R2
+* WB : **STALL** 
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (none)
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (ADD R5, R1, R2) to (SW R5, 600(R10))
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 564
+* IS/ID.IR		: <00 00 00 00>
+* RF/EX.A		: 20
+* RF/EX.B		: 44
+* EX/DF.ALUout	: 24
+* EX/DF.B		: 20
+* DS/WB.ALUout-LMD	: 8
+
+Integer registers:
+R0	0	R1	3	R2	5	R3	12	
+R4	16	R5	5	R6	1	R7	4	
+R8	44	R9	0	R10	20	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 5
+620: 0
+624: 0
+628: 0
+632: 0
+636: 0
+
+Total Stalls:
+*Loads	: 8
+*Branches: 12
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 13
+* DF/DS -> EX/DF : 5
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 5
+
+****Cycle #64***********************************************
+Current PC = 564:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: 00 00 00 0D>
+* ID : NOP 
+* RF : J #520
+* EX : BEQ R10, R8, #4
+* DF : ADDI R10, R10, #4
+* DS : SW R5, 600(R10)
+* WB : ADD R5, R1, R2
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (none)
+ Forwarding:
+ * EX/DF -> RF/EX : (ADDI R10, R10, #4) to (BEQ R10, R8, #4)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 568
+* IS/ID.IR		: <00 00 00 0D>
+* RF/EX.A		: 0
+* RF/EX.B		: 0
+* EX/DF.ALUout	: 556
+* EX/DF.B		: 44
+* DS/WB.ALUout-LMD	: 0
+
+Integer registers:
+R0	0	R1	3	R2	5	R3	12	
+R4	16	R5	8	R6	1	R7	4	
+R8	44	R9	0	R10	20	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 5
+620: 8
+624: 0
+628: 0
+632: 0
+636: 0
+
+Total Stalls:
+*Loads	: 8
+*Branches: 12
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 14
+* DF/DS -> EX/DF : 5
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 5
+
+****Cycle #65***********************************************
+Current PC = 568:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : NOP
+* ID : BREAK 
+* RF : NOP 
+* EX : J #520
+* DF : BEQ R10, R8, #4
+* DS : ADDI R10, R10, #4
+* WB : SW R5, 600(R10)
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (none)
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 572
+* IS/ID.IR		: <00 00 00 00>
+* RF/EX.A		: 0
+* RF/EX.B		: 0
+* EX/DF.ALUout	: 520
+* EX/DF.B		: 0
+* DS/WB.ALUout-LMD	: 24
+
+Integer registers:
+R0	0	R1	3	R2	5	R3	12	
+R4	16	R5	8	R6	1	R7	4	
+R8	44	R9	0	R10	20	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 5
+620: 8
+624: 0
+628: 0
+632: 0
+636: 0
+
+Total Stalls:
+*Loads	: 8
+*Branches: 12
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 14
+* DF/DS -> EX/DF : 5
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 5
+
+****Cycle #66***********************************************
+Current PC = 520:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : **STALL**
+* ID : **STALL** 
+* RF : **STALL** 
+* EX : **STALL** 
+* DF : J #520
+* DS : BEQ R10, R8, #4
+* WB : ADDI R10, R10, #4
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (none)
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 524
+* IS/ID.IR		: <00 00 00 00>
+* RF/EX.A		: 0
+* RF/EX.B		: 0
+* EX/DF.ALUout	: 0
+* EX/DF.B		: 0
+* DS/WB.ALUout-LMD	: 556
+
+Integer registers:
+R0	0	R1	3	R2	5	R3	12	
+R4	16	R5	8	R6	1	R7	4	
+R8	44	R9	0	R10	24	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 5
+620: 8
+624: 0
+628: 0
+632: 0
+636: 0
+
+Total Stalls:
+*Loads	: 8
+*Branches: 16
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 14
+* DF/DS -> EX/DF : 5
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 5
+
+****Cycle #67***********************************************
+Current PC = 524:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: 21 43 FF F8>
+* ID : **STALL** 
+* RF : **STALL** 
+* EX : **STALL** 
+* DF : **STALL** 
+* DS : J #520
+* WB : BEQ R10, R8, #4
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (none)
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 528
+* IS/ID.IR		: <21 43 FF F8>
+* RF/EX.A		: 0
+* RF/EX.B		: 0
+* EX/DF.ALUout	: 0
+* EX/DF.B		: 0
+* DS/WB.ALUout-LMD	: 520
+
+Integer registers:
+R0	0	R1	3	R2	5	R3	12	
+R4	16	R5	8	R6	1	R7	4	
+R8	44	R9	0	R10	24	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 5
+620: 8
+624: 0
+628: 0
+632: 0
+636: 0
+
+Total Stalls:
+*Loads	: 8
+*Branches: 16
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 14
+* DF/DS -> EX/DF : 5
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 5
+
+****Cycle #68***********************************************
+Current PC = 528:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: 8C 61 02 58>
+* ID : ADDI R3, R10, #-8
+* RF : **STALL** 
+* EX : **STALL** 
+* DF : **STALL** 
+* DS : **STALL** 
+* WB : J #520
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (none)
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 532
+* IS/ID.IR		: <8C 61 02 58>
+* RF/EX.A		: 0
+* RF/EX.B		: 0
+* EX/DF.ALUout	: 0
+* EX/DF.B		: 0
+* DS/WB.ALUout-LMD	: 0
+
+Integer registers:
+R0	0	R1	3	R2	5	R3	12	
+R4	16	R5	8	R6	1	R7	4	
+R8	44	R9	0	R10	24	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 5
+620: 8
+624: 0
+628: 0
+632: 0
+636: 0
+
+Total Stalls:
+*Loads	: 8
+*Branches: 16
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 14
+* DF/DS -> EX/DF : 5
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 5
+
+****Cycle #69***********************************************
+Current PC = 532:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: 21 44 FF FC>
+* ID : LW R1, 600(R3)
+* RF : ADDI R3, R10, #-8
+* EX : **STALL** 
+* DF : **STALL** 
+* DS : **STALL** 
+* WB : **STALL** 
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (ADDI R3, R10, #-8) to (LW R1, 600(R3))
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 536
+* IS/ID.IR		: <21 44 FF FC>
+* RF/EX.A		: 24
+* RF/EX.B		: 12
+* EX/DF.ALUout	: 0
+* EX/DF.B		: 0
+* DS/WB.ALUout-LMD	: 0
+
+Integer registers:
+R0	0	R1	3	R2	5	R3	12	
+R4	16	R5	8	R6	1	R7	4	
+R8	44	R9	0	R10	24	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 5
+620: 8
+624: 0
+628: 0
+632: 0
+636: 0
+
+Total Stalls:
+*Loads	: 8
+*Branches: 16
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 14
+* DF/DS -> EX/DF : 5
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 5
+
+****Cycle #70***********************************************
+Current PC = 536:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: 8C 82 02 58>
+* ID : ADDI R4, R10, #-4
+* RF : LW R1, 600(R3)
+* EX : ADDI R3, R10, #-8
+* DF : **STALL** 
+* DS : **STALL** 
+* WB : **STALL** 
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (none)
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 540
+* IS/ID.IR		: <8C 82 02 58>
+* RF/EX.A		: 12
+* RF/EX.B		: 3
+* EX/DF.ALUout	: 16
+* EX/DF.B		: 12
+* DS/WB.ALUout-LMD	: 0
+
+Integer registers:
+R0	0	R1	3	R2	5	R3	12	
+R4	16	R5	8	R6	1	R7	4	
+R8	44	R9	0	R10	24	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 5
+620: 8
+624: 0
+628: 0
+632: 0
+636: 0
+
+Total Stalls:
+*Loads	: 8
+*Branches: 16
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 14
+* DF/DS -> EX/DF : 5
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 5
+
+****Cycle #71***********************************************
+Current PC = 540:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: 00 22 28 20>
+* ID : LW R2, 600(R4)
+* RF : ADDI R4, R10, #-4
+* EX : LW R1, 600(R3)
+* DF : ADDI R3, R10, #-8
+* DS : **STALL** 
+* WB : **STALL** 
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (ADDI R4, R10, #-4) to (LW R2, 600(R4))
+ Forwarding:
+ * EX/DF -> RF/EX : (ADDI R3, R10, #-8) to (LW R1, 600(R3))
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 544
+* IS/ID.IR		: <00 22 28 20>
+* RF/EX.A		: 24
+* RF/EX.B		: 16
+* EX/DF.ALUout	: 616
+* EX/DF.B		: 3
+* DS/WB.ALUout-LMD	: 0
+
+Integer registers:
+R0	0	R1	3	R2	5	R3	12	
+R4	16	R5	8	R6	1	R7	4	
+R8	44	R9	0	R10	24	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 5
+620: 8
+624: 0
+628: 0
+632: 0
+636: 0
+
+Total Stalls:
+*Loads	: 8
+*Branches: 16
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 15
+* DF/DS -> EX/DF : 5
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 5
+
+****Cycle #72***********************************************
+Current PC = 544:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: AD 45 02 58>
+* ID : ADD R5, R1, R2
+* RF : LW R2, 600(R4)
+* EX : ADDI R4, R10, #-4
+* DF : LW R1, 600(R3)
+* DS : ADDI R3, R10, #-8
+* WB : **STALL** 
+
+Stall Instruction: ADD R5, R1, R2
+
+Forwarded:
+ Detected: (none)
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 548
+* IS/ID.IR		: <AD 45 02 58>
+* RF/EX.A		: 16
+* RF/EX.B		: 5
+* EX/DF.ALUout	: 20
+* EX/DF.B		: 16
+* DS/WB.ALUout-LMD	: 16
+
+Integer registers:
+R0	0	R1	3	R2	5	R3	12	
+R4	16	R5	8	R6	1	R7	4	
+R8	44	R9	0	R10	24	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 5
+620: 8
+624: 0
+628: 0
+632: 0
+636: 0
+
+Total Stalls:
+*Loads	: 8
+*Branches: 16
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 15
+* DF/DS -> EX/DF : 5
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 5
+
+****Cycle #73***********************************************
+Current PC = 544:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: AD 45 02 58>
+* ID : ADD R5, R1, R2
+* RF : **STALL** 
+* EX : LW R2, 600(R4)
+* DF : ADDI R4, R10, #-4
+* DS : LW R1, 600(R3)
+* WB : ADDI R3, R10, #-8
+
+Stall Instruction: ADD R5, R1, R2
+
+Forwarded:
+ Detected: (none)
+ Forwarding:
+ * EX/DF -> RF/EX : (ADDI R4, R10, #-4) to (LW R2, 600(R4))
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 548
+* IS/ID.IR		: <AD 45 02 58>
+* RF/EX.A		: 0
+* RF/EX.B		: 0
+* EX/DF.ALUout	: 620
+* EX/DF.B		: 5
+* DS/WB.ALUout-LMD	: 5
+
+Integer registers:
+R0	0	R1	3	R2	5	R3	16	
+R4	16	R5	8	R6	1	R7	4	
+R8	44	R9	0	R10	24	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 5
+620: 8
+624: 0
+628: 0
+632: 0
+636: 0
+
+Total Stalls:
+*Loads	: 9
+*Branches: 16
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 16
+* DF/DS -> EX/DF : 5
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 5
+
+****Cycle #74***********************************************
+Current PC = 544:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: AD 45 02 58>
+* ID : ADD R5, R1, R2
+* RF : **STALL** 
+* EX : **STALL** 
+* DF : LW R2, 600(R4)
+* DS : ADDI R4, R10, #-4
+* WB : LW R1, 600(R3)
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (none)
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 548
+* IS/ID.IR		: <AD 45 02 58>
+* RF/EX.A		: 0
+* RF/EX.B		: 0
+* EX/DF.ALUout	: 0
+* EX/DF.B		: 0
+* DS/WB.ALUout-LMD	: 20
+
+Integer registers:
+R0	0	R1	5	R2	5	R3	16	
+R4	16	R5	8	R6	1	R7	4	
+R8	44	R9	0	R10	24	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 5
+620: 8
+624: 0
+628: 0
+632: 0
+636: 0
+
+Total Stalls:
+*Loads	: 10
+*Branches: 16
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 16
+* DF/DS -> EX/DF : 5
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 5
+
+****Cycle #75***********************************************
+Current PC = 548:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: 21 4A 00 04>
+* ID : SW R5, 600(R10)
+* RF : ADD R5, R1, R2
+* EX : **STALL** 
+* DF : **STALL** 
+* DS : LW R2, 600(R4)
+* WB : ADDI R4, R10, #-4
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (ADD R5, R1, R2) to (SW R5, 600(R10))
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 552
+* IS/ID.IR		: <21 4A 00 04>
+* RF/EX.A		: 5
+* RF/EX.B		: 5
+* EX/DF.ALUout	: 0
+* EX/DF.B		: 0
+* DS/WB.ALUout-LMD	: 8
+
+Integer registers:
+R0	0	R1	5	R2	5	R3	16	
+R4	20	R5	8	R6	1	R7	4	
+R8	44	R9	0	R10	24	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 5
+620: 8
+624: 0
+628: 0
+632: 0
+636: 0
+
+Total Stalls:
+*Loads	: 10
+*Branches: 16
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 16
+* DF/DS -> EX/DF : 5
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 5
+
+****Cycle #76***********************************************
+Current PC = 552:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: 11 48 00 01>
+* ID : ADDI R10, R10, #4
+* RF : SW R5, 600(R10)
+* EX : ADD R5, R1, R2
+* DF : **STALL** 
+* DS : **STALL** 
+* WB : LW R2, 600(R4)
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (none)
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (LW R2, 600(R4)) to (ADD R5, R1, R2)
+
+Pipeline Registers:
+* IF/IS.NPC		: 556
+* IS/ID.IR		: <11 48 00 01>
+* RF/EX.A		: 24
+* RF/EX.B		: 8
+* EX/DF.ALUout	: 13
+* EX/DF.B		: 5
+* DS/WB.ALUout-LMD	: 0
+
+Integer registers:
+R0	0	R1	5	R2	8	R3	16	
+R4	20	R5	8	R6	1	R7	4	
+R8	44	R9	0	R10	24	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 5
+620: 8
+624: 0
+628: 0
+632: 0
+636: 0
+
+Total Stalls:
+*Loads	: 10
+*Branches: 16
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 16
+* DF/DS -> EX/DF : 5
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 6
+
+****Cycle #77***********************************************
+Current PC = 556:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: 08 00 00 82>
+* ID : BEQ R10, R8, #4
+* RF : ADDI R10, R10, #4
+* EX : SW R5, 600(R10)
+* DF : ADD R5, R1, R2
+* DS : **STALL** 
+* WB : **STALL** 
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (ADDI R10, R10, #4) to (BEQ R10, R8, #4)
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 560
+* IS/ID.IR		: <08 00 00 82>
+* RF/EX.A		: 24
+* RF/EX.B		: 24
+* EX/DF.ALUout	: 624
+* EX/DF.B		: 8
+* DS/WB.ALUout-LMD	: 0
+
+Integer registers:
+R0	0	R1	5	R2	8	R3	16	
+R4	20	R5	8	R6	1	R7	4	
+R8	44	R9	0	R10	24	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 5
+620: 8
+624: 0
+628: 0
+632: 0
+636: 0
+
+Total Stalls:
+*Loads	: 10
+*Branches: 16
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 16
+* DF/DS -> EX/DF : 5
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 6
+
+****Cycle #78***********************************************
+Current PC = 560:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : NOP
+* ID : J #520
+* RF : BEQ R10, R8, #4
+* EX : ADDI R10, R10, #4
+* DF : SW R5, 600(R10)
+* DS : ADD R5, R1, R2
+* WB : **STALL** 
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (none)
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (ADD R5, R1, R2) to (SW R5, 600(R10))
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 564
+* IS/ID.IR		: <00 00 00 00>
+* RF/EX.A		: 24
+* RF/EX.B		: 44
+* EX/DF.ALUout	: 28
+* EX/DF.B		: 24
+* DS/WB.ALUout-LMD	: 13
+
+Integer registers:
+R0	0	R1	5	R2	8	R3	16	
+R4	20	R5	8	R6	1	R7	4	
+R8	44	R9	0	R10	24	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 5
+620: 8
+624: 0
+628: 0
+632: 0
+636: 0
+
+Total Stalls:
+*Loads	: 10
+*Branches: 16
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 16
+* DF/DS -> EX/DF : 6
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 6
+
+****Cycle #79***********************************************
+Current PC = 564:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: 00 00 00 0D>
+* ID : NOP 
+* RF : J #520
+* EX : BEQ R10, R8, #4
+* DF : ADDI R10, R10, #4
+* DS : SW R5, 600(R10)
+* WB : ADD R5, R1, R2
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (none)
+ Forwarding:
+ * EX/DF -> RF/EX : (ADDI R10, R10, #4) to (BEQ R10, R8, #4)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 568
+* IS/ID.IR		: <00 00 00 0D>
+* RF/EX.A		: 0
+* RF/EX.B		: 0
+* EX/DF.ALUout	: 556
+* EX/DF.B		: 44
+* DS/WB.ALUout-LMD	: 0
+
+Integer registers:
+R0	0	R1	5	R2	8	R3	16	
+R4	20	R5	13	R6	1	R7	4	
+R8	44	R9	0	R10	24	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 5
+620: 8
+624: 13
+628: 0
+632: 0
+636: 0
+
+Total Stalls:
+*Loads	: 10
+*Branches: 16
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 17
+* DF/DS -> EX/DF : 6
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 6
+
+****Cycle #80***********************************************
+Current PC = 568:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : NOP
+* ID : BREAK 
+* RF : NOP 
+* EX : J #520
+* DF : BEQ R10, R8, #4
+* DS : ADDI R10, R10, #4
+* WB : SW R5, 600(R10)
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (none)
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 572
+* IS/ID.IR		: <00 00 00 00>
+* RF/EX.A		: 0
+* RF/EX.B		: 0
+* EX/DF.ALUout	: 520
+* EX/DF.B		: 0
+* DS/WB.ALUout-LMD	: 28
+
+Integer registers:
+R0	0	R1	5	R2	8	R3	16	
+R4	20	R5	13	R6	1	R7	4	
+R8	44	R9	0	R10	24	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 5
+620: 8
+624: 13
+628: 0
+632: 0
+636: 0
+
+Total Stalls:
+*Loads	: 10
+*Branches: 16
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 17
+* DF/DS -> EX/DF : 6
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 6
+
+****Cycle #81***********************************************
+Current PC = 520:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : **STALL**
+* ID : **STALL** 
+* RF : **STALL** 
+* EX : **STALL** 
+* DF : J #520
+* DS : BEQ R10, R8, #4
+* WB : ADDI R10, R10, #4
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (none)
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 524
+* IS/ID.IR		: <00 00 00 00>
+* RF/EX.A		: 0
+* RF/EX.B		: 0
+* EX/DF.ALUout	: 0
+* EX/DF.B		: 0
+* DS/WB.ALUout-LMD	: 556
+
+Integer registers:
+R0	0	R1	5	R2	8	R3	16	
+R4	20	R5	13	R6	1	R7	4	
+R8	44	R9	0	R10	28	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 5
+620: 8
+624: 13
+628: 0
+632: 0
+636: 0
+
+Total Stalls:
+*Loads	: 10
+*Branches: 20
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 17
+* DF/DS -> EX/DF : 6
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 6
+
+****Cycle #82***********************************************
+Current PC = 524:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: 21 43 FF F8>
+* ID : **STALL** 
+* RF : **STALL** 
+* EX : **STALL** 
+* DF : **STALL** 
+* DS : J #520
+* WB : BEQ R10, R8, #4
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (none)
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 528
+* IS/ID.IR		: <21 43 FF F8>
+* RF/EX.A		: 0
+* RF/EX.B		: 0
+* EX/DF.ALUout	: 0
+* EX/DF.B		: 0
+* DS/WB.ALUout-LMD	: 520
+
+Integer registers:
+R0	0	R1	5	R2	8	R3	16	
+R4	20	R5	13	R6	1	R7	4	
+R8	44	R9	0	R10	28	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 5
+620: 8
+624: 13
+628: 0
+632: 0
+636: 0
+
+Total Stalls:
+*Loads	: 10
+*Branches: 20
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 17
+* DF/DS -> EX/DF : 6
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 6
+
+****Cycle #83***********************************************
+Current PC = 528:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: 8C 61 02 58>
+* ID : ADDI R3, R10, #-8
+* RF : **STALL** 
+* EX : **STALL** 
+* DF : **STALL** 
+* DS : **STALL** 
+* WB : J #520
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (none)
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 532
+* IS/ID.IR		: <8C 61 02 58>
+* RF/EX.A		: 0
+* RF/EX.B		: 0
+* EX/DF.ALUout	: 0
+* EX/DF.B		: 0
+* DS/WB.ALUout-LMD	: 0
+
+Integer registers:
+R0	0	R1	5	R2	8	R3	16	
+R4	20	R5	13	R6	1	R7	4	
+R8	44	R9	0	R10	28	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 5
+620: 8
+624: 13
+628: 0
+632: 0
+636: 0
+
+Total Stalls:
+*Loads	: 10
+*Branches: 20
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 17
+* DF/DS -> EX/DF : 6
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 6
+
+****Cycle #84***********************************************
+Current PC = 532:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: 21 44 FF FC>
+* ID : LW R1, 600(R3)
+* RF : ADDI R3, R10, #-8
+* EX : **STALL** 
+* DF : **STALL** 
+* DS : **STALL** 
+* WB : **STALL** 
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (ADDI R3, R10, #-8) to (LW R1, 600(R3))
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 536
+* IS/ID.IR		: <21 44 FF FC>
+* RF/EX.A		: 28
+* RF/EX.B		: 16
+* EX/DF.ALUout	: 0
+* EX/DF.B		: 0
+* DS/WB.ALUout-LMD	: 0
+
+Integer registers:
+R0	0	R1	5	R2	8	R3	16	
+R4	20	R5	13	R6	1	R7	4	
+R8	44	R9	0	R10	28	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 5
+620: 8
+624: 13
+628: 0
+632: 0
+636: 0
+
+Total Stalls:
+*Loads	: 10
+*Branches: 20
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 17
+* DF/DS -> EX/DF : 6
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 6
+
+****Cycle #85***********************************************
+Current PC = 536:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: 8C 82 02 58>
+* ID : ADDI R4, R10, #-4
+* RF : LW R1, 600(R3)
+* EX : ADDI R3, R10, #-8
+* DF : **STALL** 
+* DS : **STALL** 
+* WB : **STALL** 
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (none)
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 540
+* IS/ID.IR		: <8C 82 02 58>
+* RF/EX.A		: 16
+* RF/EX.B		: 5
+* EX/DF.ALUout	: 20
+* EX/DF.B		: 16
+* DS/WB.ALUout-LMD	: 0
+
+Integer registers:
+R0	0	R1	5	R2	8	R3	16	
+R4	20	R5	13	R6	1	R7	4	
+R8	44	R9	0	R10	28	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 5
+620: 8
+624: 13
+628: 0
+632: 0
+636: 0
+
+Total Stalls:
+*Loads	: 10
+*Branches: 20
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 17
+* DF/DS -> EX/DF : 6
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 6
+
+****Cycle #86***********************************************
+Current PC = 540:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: 00 22 28 20>
+* ID : LW R2, 600(R4)
+* RF : ADDI R4, R10, #-4
+* EX : LW R1, 600(R3)
+* DF : ADDI R3, R10, #-8
+* DS : **STALL** 
+* WB : **STALL** 
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (ADDI R4, R10, #-4) to (LW R2, 600(R4))
+ Forwarding:
+ * EX/DF -> RF/EX : (ADDI R3, R10, #-8) to (LW R1, 600(R3))
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 544
+* IS/ID.IR		: <00 22 28 20>
+* RF/EX.A		: 28
+* RF/EX.B		: 20
+* EX/DF.ALUout	: 620
+* EX/DF.B		: 5
+* DS/WB.ALUout-LMD	: 0
+
+Integer registers:
+R0	0	R1	5	R2	8	R3	16	
+R4	20	R5	13	R6	1	R7	4	
+R8	44	R9	0	R10	28	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 5
+620: 8
+624: 13
+628: 0
+632: 0
+636: 0
+
+Total Stalls:
+*Loads	: 10
+*Branches: 20
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 18
+* DF/DS -> EX/DF : 6
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 6
+
+****Cycle #87***********************************************
+Current PC = 544:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: AD 45 02 58>
+* ID : ADD R5, R1, R2
+* RF : LW R2, 600(R4)
+* EX : ADDI R4, R10, #-4
+* DF : LW R1, 600(R3)
+* DS : ADDI R3, R10, #-8
+* WB : **STALL** 
+
+Stall Instruction: ADD R5, R1, R2
+
+Forwarded:
+ Detected: (none)
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 548
+* IS/ID.IR		: <AD 45 02 58>
+* RF/EX.A		: 20
+* RF/EX.B		: 8
+* EX/DF.ALUout	: 24
+* EX/DF.B		: 20
+* DS/WB.ALUout-LMD	: 20
+
+Integer registers:
+R0	0	R1	5	R2	8	R3	16	
+R4	20	R5	13	R6	1	R7	4	
+R8	44	R9	0	R10	28	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 5
+620: 8
+624: 13
+628: 0
+632: 0
+636: 0
+
+Total Stalls:
+*Loads	: 10
+*Branches: 20
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 18
+* DF/DS -> EX/DF : 6
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 6
+
+****Cycle #88***********************************************
+Current PC = 544:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: AD 45 02 58>
+* ID : ADD R5, R1, R2
+* RF : **STALL** 
+* EX : LW R2, 600(R4)
+* DF : ADDI R4, R10, #-4
+* DS : LW R1, 600(R3)
+* WB : ADDI R3, R10, #-8
+
+Stall Instruction: ADD R5, R1, R2
+
+Forwarded:
+ Detected: (none)
+ Forwarding:
+ * EX/DF -> RF/EX : (ADDI R4, R10, #-4) to (LW R2, 600(R4))
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 548
+* IS/ID.IR		: <AD 45 02 58>
+* RF/EX.A		: 0
+* RF/EX.B		: 0
+* EX/DF.ALUout	: 624
+* EX/DF.B		: 8
+* DS/WB.ALUout-LMD	: 8
+
+Integer registers:
+R0	0	R1	5	R2	8	R3	20	
+R4	20	R5	13	R6	1	R7	4	
+R8	44	R9	0	R10	28	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 5
+620: 8
+624: 13
+628: 0
+632: 0
+636: 0
+
+Total Stalls:
+*Loads	: 11
+*Branches: 20
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 19
+* DF/DS -> EX/DF : 6
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 6
+
+****Cycle #89***********************************************
+Current PC = 544:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: AD 45 02 58>
+* ID : ADD R5, R1, R2
+* RF : **STALL** 
+* EX : **STALL** 
+* DF : LW R2, 600(R4)
+* DS : ADDI R4, R10, #-4
+* WB : LW R1, 600(R3)
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (none)
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 548
+* IS/ID.IR		: <AD 45 02 58>
+* RF/EX.A		: 0
+* RF/EX.B		: 0
+* EX/DF.ALUout	: 0
+* EX/DF.B		: 0
+* DS/WB.ALUout-LMD	: 24
+
+Integer registers:
+R0	0	R1	8	R2	8	R3	20	
+R4	20	R5	13	R6	1	R7	4	
+R8	44	R9	0	R10	28	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 5
+620: 8
+624: 13
+628: 0
+632: 0
+636: 0
+
+Total Stalls:
+*Loads	: 12
+*Branches: 20
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 19
+* DF/DS -> EX/DF : 6
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 6
+
+****Cycle #90***********************************************
+Current PC = 548:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: 21 4A 00 04>
+* ID : SW R5, 600(R10)
+* RF : ADD R5, R1, R2
+* EX : **STALL** 
+* DF : **STALL** 
+* DS : LW R2, 600(R4)
+* WB : ADDI R4, R10, #-4
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (ADD R5, R1, R2) to (SW R5, 600(R10))
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 552
+* IS/ID.IR		: <21 4A 00 04>
+* RF/EX.A		: 8
+* RF/EX.B		: 8
+* EX/DF.ALUout	: 0
+* EX/DF.B		: 0
+* DS/WB.ALUout-LMD	: 13
+
+Integer registers:
+R0	0	R1	8	R2	8	R3	20	
+R4	24	R5	13	R6	1	R7	4	
+R8	44	R9	0	R10	28	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 5
+620: 8
+624: 13
+628: 0
+632: 0
+636: 0
+
+Total Stalls:
+*Loads	: 12
+*Branches: 20
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 19
+* DF/DS -> EX/DF : 6
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 6
+
+****Cycle #91***********************************************
+Current PC = 552:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: 11 48 00 01>
+* ID : ADDI R10, R10, #4
+* RF : SW R5, 600(R10)
+* EX : ADD R5, R1, R2
+* DF : **STALL** 
+* DS : **STALL** 
+* WB : LW R2, 600(R4)
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (none)
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (LW R2, 600(R4)) to (ADD R5, R1, R2)
+
+Pipeline Registers:
+* IF/IS.NPC		: 556
+* IS/ID.IR		: <11 48 00 01>
+* RF/EX.A		: 28
+* RF/EX.B		: 13
+* EX/DF.ALUout	: 21
+* EX/DF.B		: 8
+* DS/WB.ALUout-LMD	: 0
+
+Integer registers:
+R0	0	R1	8	R2	13	R3	20	
+R4	24	R5	13	R6	1	R7	4	
+R8	44	R9	0	R10	28	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 5
+620: 8
+624: 13
+628: 0
+632: 0
+636: 0
+
+Total Stalls:
+*Loads	: 12
+*Branches: 20
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 19
+* DF/DS -> EX/DF : 6
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 7
+
+****Cycle #92***********************************************
+Current PC = 556:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: 08 00 00 82>
+* ID : BEQ R10, R8, #4
+* RF : ADDI R10, R10, #4
+* EX : SW R5, 600(R10)
+* DF : ADD R5, R1, R2
+* DS : **STALL** 
+* WB : **STALL** 
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (ADDI R10, R10, #4) to (BEQ R10, R8, #4)
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 560
+* IS/ID.IR		: <08 00 00 82>
+* RF/EX.A		: 28
+* RF/EX.B		: 28
+* EX/DF.ALUout	: 628
+* EX/DF.B		: 13
+* DS/WB.ALUout-LMD	: 0
+
+Integer registers:
+R0	0	R1	8	R2	13	R3	20	
+R4	24	R5	13	R6	1	R7	4	
+R8	44	R9	0	R10	28	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 5
+620: 8
+624: 13
+628: 0
+632: 0
+636: 0
+
+Total Stalls:
+*Loads	: 12
+*Branches: 20
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 19
+* DF/DS -> EX/DF : 6
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 7
+
+****Cycle #93***********************************************
+Current PC = 560:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : NOP
+* ID : J #520
+* RF : BEQ R10, R8, #4
+* EX : ADDI R10, R10, #4
+* DF : SW R5, 600(R10)
+* DS : ADD R5, R1, R2
+* WB : **STALL** 
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (none)
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (ADD R5, R1, R2) to (SW R5, 600(R10))
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 564
+* IS/ID.IR		: <00 00 00 00>
+* RF/EX.A		: 28
+* RF/EX.B		: 44
+* EX/DF.ALUout	: 32
+* EX/DF.B		: 28
+* DS/WB.ALUout-LMD	: 21
+
+Integer registers:
+R0	0	R1	8	R2	13	R3	20	
+R4	24	R5	13	R6	1	R7	4	
+R8	44	R9	0	R10	28	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 5
+620: 8
+624: 13
+628: 0
+632: 0
+636: 0
+
+Total Stalls:
+*Loads	: 12
+*Branches: 20
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 19
+* DF/DS -> EX/DF : 7
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 7
+
+****Cycle #94***********************************************
+Current PC = 564:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: 00 00 00 0D>
+* ID : NOP 
+* RF : J #520
+* EX : BEQ R10, R8, #4
+* DF : ADDI R10, R10, #4
+* DS : SW R5, 600(R10)
+* WB : ADD R5, R1, R2
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (none)
+ Forwarding:
+ * EX/DF -> RF/EX : (ADDI R10, R10, #4) to (BEQ R10, R8, #4)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 568
+* IS/ID.IR		: <00 00 00 0D>
+* RF/EX.A		: 0
+* RF/EX.B		: 0
+* EX/DF.ALUout	: 556
+* EX/DF.B		: 44
+* DS/WB.ALUout-LMD	: 0
+
+Integer registers:
+R0	0	R1	8	R2	13	R3	20	
+R4	24	R5	21	R6	1	R7	4	
+R8	44	R9	0	R10	28	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 5
+620: 8
+624: 13
+628: 21
+632: 0
+636: 0
+
+Total Stalls:
+*Loads	: 12
+*Branches: 20
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 20
+* DF/DS -> EX/DF : 7
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 7
+
+****Cycle #95***********************************************
+Current PC = 568:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : NOP
+* ID : BREAK 
+* RF : NOP 
+* EX : J #520
+* DF : BEQ R10, R8, #4
+* DS : ADDI R10, R10, #4
+* WB : SW R5, 600(R10)
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (none)
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 572
+* IS/ID.IR		: <00 00 00 00>
+* RF/EX.A		: 0
+* RF/EX.B		: 0
+* EX/DF.ALUout	: 520
+* EX/DF.B		: 0
+* DS/WB.ALUout-LMD	: 32
+
+Integer registers:
+R0	0	R1	8	R2	13	R3	20	
+R4	24	R5	21	R6	1	R7	4	
+R8	44	R9	0	R10	28	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 5
+620: 8
+624: 13
+628: 21
+632: 0
+636: 0
+
+Total Stalls:
+*Loads	: 12
+*Branches: 20
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 20
+* DF/DS -> EX/DF : 7
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 7
+
+****Cycle #96***********************************************
+Current PC = 520:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : **STALL**
+* ID : **STALL** 
+* RF : **STALL** 
+* EX : **STALL** 
+* DF : J #520
+* DS : BEQ R10, R8, #4
+* WB : ADDI R10, R10, #4
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (none)
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 524
+* IS/ID.IR		: <00 00 00 00>
+* RF/EX.A		: 0
+* RF/EX.B		: 0
+* EX/DF.ALUout	: 0
+* EX/DF.B		: 0
+* DS/WB.ALUout-LMD	: 556
+
+Integer registers:
+R0	0	R1	8	R2	13	R3	20	
+R4	24	R5	21	R6	1	R7	4	
+R8	44	R9	0	R10	32	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 5
+620: 8
+624: 13
+628: 21
+632: 0
+636: 0
+
+Total Stalls:
+*Loads	: 12
+*Branches: 24
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 20
+* DF/DS -> EX/DF : 7
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 7
+
+****Cycle #97***********************************************
+Current PC = 524:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: 21 43 FF F8>
+* ID : **STALL** 
+* RF : **STALL** 
+* EX : **STALL** 
+* DF : **STALL** 
+* DS : J #520
+* WB : BEQ R10, R8, #4
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (none)
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 528
+* IS/ID.IR		: <21 43 FF F8>
+* RF/EX.A		: 0
+* RF/EX.B		: 0
+* EX/DF.ALUout	: 0
+* EX/DF.B		: 0
+* DS/WB.ALUout-LMD	: 520
+
+Integer registers:
+R0	0	R1	8	R2	13	R3	20	
+R4	24	R5	21	R6	1	R7	4	
+R8	44	R9	0	R10	32	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 5
+620: 8
+624: 13
+628: 21
+632: 0
+636: 0
+
+Total Stalls:
+*Loads	: 12
+*Branches: 24
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 20
+* DF/DS -> EX/DF : 7
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 7
+
+****Cycle #98***********************************************
+Current PC = 528:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: 8C 61 02 58>
+* ID : ADDI R3, R10, #-8
+* RF : **STALL** 
+* EX : **STALL** 
+* DF : **STALL** 
+* DS : **STALL** 
+* WB : J #520
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (none)
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 532
+* IS/ID.IR		: <8C 61 02 58>
+* RF/EX.A		: 0
+* RF/EX.B		: 0
+* EX/DF.ALUout	: 0
+* EX/DF.B		: 0
+* DS/WB.ALUout-LMD	: 0
+
+Integer registers:
+R0	0	R1	8	R2	13	R3	20	
+R4	24	R5	21	R6	1	R7	4	
+R8	44	R9	0	R10	32	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 5
+620: 8
+624: 13
+628: 21
+632: 0
+636: 0
+
+Total Stalls:
+*Loads	: 12
+*Branches: 24
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 20
+* DF/DS -> EX/DF : 7
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 7
+
+****Cycle #99***********************************************
+Current PC = 532:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: 21 44 FF FC>
+* ID : LW R1, 600(R3)
+* RF : ADDI R3, R10, #-8
+* EX : **STALL** 
+* DF : **STALL** 
+* DS : **STALL** 
+* WB : **STALL** 
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (ADDI R3, R10, #-8) to (LW R1, 600(R3))
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 536
+* IS/ID.IR		: <21 44 FF FC>
+* RF/EX.A		: 32
+* RF/EX.B		: 20
+* EX/DF.ALUout	: 0
+* EX/DF.B		: 0
+* DS/WB.ALUout-LMD	: 0
+
+Integer registers:
+R0	0	R1	8	R2	13	R3	20	
+R4	24	R5	21	R6	1	R7	4	
+R8	44	R9	0	R10	32	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 5
+620: 8
+624: 13
+628: 21
+632: 0
+636: 0
+
+Total Stalls:
+*Loads	: 12
+*Branches: 24
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 20
+* DF/DS -> EX/DF : 7
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 7
+
+****Cycle #100***********************************************
+Current PC = 536:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: 8C 82 02 58>
+* ID : ADDI R4, R10, #-4
+* RF : LW R1, 600(R3)
+* EX : ADDI R3, R10, #-8
+* DF : **STALL** 
+* DS : **STALL** 
+* WB : **STALL** 
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (none)
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 540
+* IS/ID.IR		: <8C 82 02 58>
+* RF/EX.A		: 20
+* RF/EX.B		: 8
+* EX/DF.ALUout	: 24
+* EX/DF.B		: 20
+* DS/WB.ALUout-LMD	: 0
+
+Integer registers:
+R0	0	R1	8	R2	13	R3	20	
+R4	24	R5	21	R6	1	R7	4	
+R8	44	R9	0	R10	32	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 5
+620: 8
+624: 13
+628: 21
+632: 0
+636: 0
+
+Total Stalls:
+*Loads	: 12
+*Branches: 24
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 20
+* DF/DS -> EX/DF : 7
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 7
+
+****Cycle #101***********************************************
+Current PC = 540:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: 00 22 28 20>
+* ID : LW R2, 600(R4)
+* RF : ADDI R4, R10, #-4
+* EX : LW R1, 600(R3)
+* DF : ADDI R3, R10, #-8
+* DS : **STALL** 
+* WB : **STALL** 
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (ADDI R4, R10, #-4) to (LW R2, 600(R4))
+ Forwarding:
+ * EX/DF -> RF/EX : (ADDI R3, R10, #-8) to (LW R1, 600(R3))
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 544
+* IS/ID.IR		: <00 22 28 20>
+* RF/EX.A		: 32
+* RF/EX.B		: 24
+* EX/DF.ALUout	: 624
+* EX/DF.B		: 8
+* DS/WB.ALUout-LMD	: 0
+
+Integer registers:
+R0	0	R1	8	R2	13	R3	20	
+R4	24	R5	21	R6	1	R7	4	
+R8	44	R9	0	R10	32	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 5
+620: 8
+624: 13
+628: 21
+632: 0
+636: 0
+
+Total Stalls:
+*Loads	: 12
+*Branches: 24
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 21
+* DF/DS -> EX/DF : 7
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 7
+
+****Cycle #102***********************************************
+Current PC = 544:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: AD 45 02 58>
+* ID : ADD R5, R1, R2
+* RF : LW R2, 600(R4)
+* EX : ADDI R4, R10, #-4
+* DF : LW R1, 600(R3)
+* DS : ADDI R3, R10, #-8
+* WB : **STALL** 
+
+Stall Instruction: ADD R5, R1, R2
+
+Forwarded:
+ Detected: (none)
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 548
+* IS/ID.IR		: <AD 45 02 58>
+* RF/EX.A		: 24
+* RF/EX.B		: 13
+* EX/DF.ALUout	: 28
+* EX/DF.B		: 24
+* DS/WB.ALUout-LMD	: 24
+
+Integer registers:
+R0	0	R1	8	R2	13	R3	20	
+R4	24	R5	21	R6	1	R7	4	
+R8	44	R9	0	R10	32	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 5
+620: 8
+624: 13
+628: 21
+632: 0
+636: 0
+
+Total Stalls:
+*Loads	: 12
+*Branches: 24
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 21
+* DF/DS -> EX/DF : 7
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 7
+
+****Cycle #103***********************************************
+Current PC = 544:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: AD 45 02 58>
+* ID : ADD R5, R1, R2
+* RF : **STALL** 
+* EX : LW R2, 600(R4)
+* DF : ADDI R4, R10, #-4
+* DS : LW R1, 600(R3)
+* WB : ADDI R3, R10, #-8
+
+Stall Instruction: ADD R5, R1, R2
+
+Forwarded:
+ Detected: (none)
+ Forwarding:
+ * EX/DF -> RF/EX : (ADDI R4, R10, #-4) to (LW R2, 600(R4))
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 548
+* IS/ID.IR		: <AD 45 02 58>
+* RF/EX.A		: 0
+* RF/EX.B		: 0
+* EX/DF.ALUout	: 628
+* EX/DF.B		: 13
+* DS/WB.ALUout-LMD	: 13
+
+Integer registers:
+R0	0	R1	8	R2	13	R3	24	
+R4	24	R5	21	R6	1	R7	4	
+R8	44	R9	0	R10	32	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 5
+620: 8
+624: 13
+628: 21
+632: 0
+636: 0
+
+Total Stalls:
+*Loads	: 13
+*Branches: 24
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 22
+* DF/DS -> EX/DF : 7
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 7
+
+****Cycle #104***********************************************
+Current PC = 544:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: AD 45 02 58>
+* ID : ADD R5, R1, R2
+* RF : **STALL** 
+* EX : **STALL** 
+* DF : LW R2, 600(R4)
+* DS : ADDI R4, R10, #-4
+* WB : LW R1, 600(R3)
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (none)
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 548
+* IS/ID.IR		: <AD 45 02 58>
+* RF/EX.A		: 0
+* RF/EX.B		: 0
+* EX/DF.ALUout	: 0
+* EX/DF.B		: 0
+* DS/WB.ALUout-LMD	: 28
+
+Integer registers:
+R0	0	R1	13	R2	13	R3	24	
+R4	24	R5	21	R6	1	R7	4	
+R8	44	R9	0	R10	32	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 5
+620: 8
+624: 13
+628: 21
+632: 0
+636: 0
+
+Total Stalls:
+*Loads	: 14
+*Branches: 24
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 22
+* DF/DS -> EX/DF : 7
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 7
+
+****Cycle #105***********************************************
+Current PC = 548:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: 21 4A 00 04>
+* ID : SW R5, 600(R10)
+* RF : ADD R5, R1, R2
+* EX : **STALL** 
+* DF : **STALL** 
+* DS : LW R2, 600(R4)
+* WB : ADDI R4, R10, #-4
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (ADD R5, R1, R2) to (SW R5, 600(R10))
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 552
+* IS/ID.IR		: <21 4A 00 04>
+* RF/EX.A		: 13
+* RF/EX.B		: 13
+* EX/DF.ALUout	: 0
+* EX/DF.B		: 0
+* DS/WB.ALUout-LMD	: 21
+
+Integer registers:
+R0	0	R1	13	R2	13	R3	24	
+R4	28	R5	21	R6	1	R7	4	
+R8	44	R9	0	R10	32	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 5
+620: 8
+624: 13
+628: 21
+632: 0
+636: 0
+
+Total Stalls:
+*Loads	: 14
+*Branches: 24
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 22
+* DF/DS -> EX/DF : 7
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 7
+
+****Cycle #106***********************************************
+Current PC = 552:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: 11 48 00 01>
+* ID : ADDI R10, R10, #4
+* RF : SW R5, 600(R10)
+* EX : ADD R5, R1, R2
+* DF : **STALL** 
+* DS : **STALL** 
+* WB : LW R2, 600(R4)
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (none)
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (LW R2, 600(R4)) to (ADD R5, R1, R2)
+
+Pipeline Registers:
+* IF/IS.NPC		: 556
+* IS/ID.IR		: <11 48 00 01>
+* RF/EX.A		: 32
+* RF/EX.B		: 21
+* EX/DF.ALUout	: 34
+* EX/DF.B		: 13
+* DS/WB.ALUout-LMD	: 0
+
+Integer registers:
+R0	0	R1	13	R2	21	R3	24	
+R4	28	R5	21	R6	1	R7	4	
+R8	44	R9	0	R10	32	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 5
+620: 8
+624: 13
+628: 21
+632: 0
+636: 0
+
+Total Stalls:
+*Loads	: 14
+*Branches: 24
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 22
+* DF/DS -> EX/DF : 7
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 8
+
+****Cycle #107***********************************************
+Current PC = 556:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: 08 00 00 82>
+* ID : BEQ R10, R8, #4
+* RF : ADDI R10, R10, #4
+* EX : SW R5, 600(R10)
+* DF : ADD R5, R1, R2
+* DS : **STALL** 
+* WB : **STALL** 
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (ADDI R10, R10, #4) to (BEQ R10, R8, #4)
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 560
+* IS/ID.IR		: <08 00 00 82>
+* RF/EX.A		: 32
+* RF/EX.B		: 32
+* EX/DF.ALUout	: 632
+* EX/DF.B		: 21
+* DS/WB.ALUout-LMD	: 0
+
+Integer registers:
+R0	0	R1	13	R2	21	R3	24	
+R4	28	R5	21	R6	1	R7	4	
+R8	44	R9	0	R10	32	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 5
+620: 8
+624: 13
+628: 21
+632: 0
+636: 0
+
+Total Stalls:
+*Loads	: 14
+*Branches: 24
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 22
+* DF/DS -> EX/DF : 7
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 8
+
+****Cycle #108***********************************************
+Current PC = 560:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : NOP
+* ID : J #520
+* RF : BEQ R10, R8, #4
+* EX : ADDI R10, R10, #4
+* DF : SW R5, 600(R10)
+* DS : ADD R5, R1, R2
+* WB : **STALL** 
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (none)
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (ADD R5, R1, R2) to (SW R5, 600(R10))
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 564
+* IS/ID.IR		: <00 00 00 00>
+* RF/EX.A		: 32
+* RF/EX.B		: 44
+* EX/DF.ALUout	: 36
+* EX/DF.B		: 32
+* DS/WB.ALUout-LMD	: 34
+
+Integer registers:
+R0	0	R1	13	R2	21	R3	24	
+R4	28	R5	21	R6	1	R7	4	
+R8	44	R9	0	R10	32	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 5
+620: 8
+624: 13
+628: 21
+632: 0
+636: 0
+
+Total Stalls:
+*Loads	: 14
+*Branches: 24
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 22
+* DF/DS -> EX/DF : 8
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 8
+
+****Cycle #109***********************************************
+Current PC = 564:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: 00 00 00 0D>
+* ID : NOP 
+* RF : J #520
+* EX : BEQ R10, R8, #4
+* DF : ADDI R10, R10, #4
+* DS : SW R5, 600(R10)
+* WB : ADD R5, R1, R2
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (none)
+ Forwarding:
+ * EX/DF -> RF/EX : (ADDI R10, R10, #4) to (BEQ R10, R8, #4)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 568
+* IS/ID.IR		: <00 00 00 0D>
+* RF/EX.A		: 0
+* RF/EX.B		: 0
+* EX/DF.ALUout	: 556
+* EX/DF.B		: 44
+* DS/WB.ALUout-LMD	: 0
+
+Integer registers:
+R0	0	R1	13	R2	21	R3	24	
+R4	28	R5	34	R6	1	R7	4	
+R8	44	R9	0	R10	32	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 5
+620: 8
+624: 13
+628: 21
+632: 34
+636: 0
+
+Total Stalls:
+*Loads	: 14
+*Branches: 24
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 23
+* DF/DS -> EX/DF : 8
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 8
+
+****Cycle #110***********************************************
+Current PC = 568:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : NOP
+* ID : BREAK 
+* RF : NOP 
+* EX : J #520
+* DF : BEQ R10, R8, #4
+* DS : ADDI R10, R10, #4
+* WB : SW R5, 600(R10)
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (none)
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 572
+* IS/ID.IR		: <00 00 00 00>
+* RF/EX.A		: 0
+* RF/EX.B		: 0
+* EX/DF.ALUout	: 520
+* EX/DF.B		: 0
+* DS/WB.ALUout-LMD	: 36
+
+Integer registers:
+R0	0	R1	13	R2	21	R3	24	
+R4	28	R5	34	R6	1	R7	4	
+R8	44	R9	0	R10	32	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 5
+620: 8
+624: 13
+628: 21
+632: 34
+636: 0
+
+Total Stalls:
+*Loads	: 14
+*Branches: 24
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 23
+* DF/DS -> EX/DF : 8
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 8
+
+****Cycle #111***********************************************
+Current PC = 520:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : **STALL**
+* ID : **STALL** 
+* RF : **STALL** 
+* EX : **STALL** 
+* DF : J #520
+* DS : BEQ R10, R8, #4
+* WB : ADDI R10, R10, #4
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (none)
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 524
+* IS/ID.IR		: <00 00 00 00>
+* RF/EX.A		: 0
+* RF/EX.B		: 0
+* EX/DF.ALUout	: 0
+* EX/DF.B		: 0
+* DS/WB.ALUout-LMD	: 556
+
+Integer registers:
+R0	0	R1	13	R2	21	R3	24	
+R4	28	R5	34	R6	1	R7	4	
+R8	44	R9	0	R10	36	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 5
+620: 8
+624: 13
+628: 21
+632: 34
+636: 0
+
+Total Stalls:
+*Loads	: 14
+*Branches: 28
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 23
+* DF/DS -> EX/DF : 8
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 8
+
+****Cycle #112***********************************************
+Current PC = 524:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: 21 43 FF F8>
+* ID : **STALL** 
+* RF : **STALL** 
+* EX : **STALL** 
+* DF : **STALL** 
+* DS : J #520
+* WB : BEQ R10, R8, #4
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (none)
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 528
+* IS/ID.IR		: <21 43 FF F8>
+* RF/EX.A		: 0
+* RF/EX.B		: 0
+* EX/DF.ALUout	: 0
+* EX/DF.B		: 0
+* DS/WB.ALUout-LMD	: 520
+
+Integer registers:
+R0	0	R1	13	R2	21	R3	24	
+R4	28	R5	34	R6	1	R7	4	
+R8	44	R9	0	R10	36	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 5
+620: 8
+624: 13
+628: 21
+632: 34
+636: 0
+
+Total Stalls:
+*Loads	: 14
+*Branches: 28
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 23
+* DF/DS -> EX/DF : 8
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 8
+
+****Cycle #113***********************************************
+Current PC = 528:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: 8C 61 02 58>
+* ID : ADDI R3, R10, #-8
+* RF : **STALL** 
+* EX : **STALL** 
+* DF : **STALL** 
+* DS : **STALL** 
+* WB : J #520
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (none)
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 532
+* IS/ID.IR		: <8C 61 02 58>
+* RF/EX.A		: 0
+* RF/EX.B		: 0
+* EX/DF.ALUout	: 0
+* EX/DF.B		: 0
+* DS/WB.ALUout-LMD	: 0
+
+Integer registers:
+R0	0	R1	13	R2	21	R3	24	
+R4	28	R5	34	R6	1	R7	4	
+R8	44	R9	0	R10	36	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 5
+620: 8
+624: 13
+628: 21
+632: 34
+636: 0
+
+Total Stalls:
+*Loads	: 14
+*Branches: 28
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 23
+* DF/DS -> EX/DF : 8
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 8
+
+****Cycle #114***********************************************
+Current PC = 532:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: 21 44 FF FC>
+* ID : LW R1, 600(R3)
+* RF : ADDI R3, R10, #-8
+* EX : **STALL** 
+* DF : **STALL** 
+* DS : **STALL** 
+* WB : **STALL** 
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (ADDI R3, R10, #-8) to (LW R1, 600(R3))
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 536
+* IS/ID.IR		: <21 44 FF FC>
+* RF/EX.A		: 36
+* RF/EX.B		: 24
+* EX/DF.ALUout	: 0
+* EX/DF.B		: 0
+* DS/WB.ALUout-LMD	: 0
+
+Integer registers:
+R0	0	R1	13	R2	21	R3	24	
+R4	28	R5	34	R6	1	R7	4	
+R8	44	R9	0	R10	36	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 5
+620: 8
+624: 13
+628: 21
+632: 34
+636: 0
+
+Total Stalls:
+*Loads	: 14
+*Branches: 28
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 23
+* DF/DS -> EX/DF : 8
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 8
+
+****Cycle #115***********************************************
+Current PC = 536:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: 8C 82 02 58>
+* ID : ADDI R4, R10, #-4
+* RF : LW R1, 600(R3)
+* EX : ADDI R3, R10, #-8
+* DF : **STALL** 
+* DS : **STALL** 
+* WB : **STALL** 
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (none)
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 540
+* IS/ID.IR		: <8C 82 02 58>
+* RF/EX.A		: 24
+* RF/EX.B		: 13
+* EX/DF.ALUout	: 28
+* EX/DF.B		: 24
+* DS/WB.ALUout-LMD	: 0
+
+Integer registers:
+R0	0	R1	13	R2	21	R3	24	
+R4	28	R5	34	R6	1	R7	4	
+R8	44	R9	0	R10	36	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 5
+620: 8
+624: 13
+628: 21
+632: 34
+636: 0
+
+Total Stalls:
+*Loads	: 14
+*Branches: 28
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 23
+* DF/DS -> EX/DF : 8
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 8
+
+****Cycle #116***********************************************
+Current PC = 540:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: 00 22 28 20>
+* ID : LW R2, 600(R4)
+* RF : ADDI R4, R10, #-4
+* EX : LW R1, 600(R3)
+* DF : ADDI R3, R10, #-8
+* DS : **STALL** 
+* WB : **STALL** 
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (ADDI R4, R10, #-4) to (LW R2, 600(R4))
+ Forwarding:
+ * EX/DF -> RF/EX : (ADDI R3, R10, #-8) to (LW R1, 600(R3))
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 544
+* IS/ID.IR		: <00 22 28 20>
+* RF/EX.A		: 36
+* RF/EX.B		: 28
+* EX/DF.ALUout	: 628
+* EX/DF.B		: 13
+* DS/WB.ALUout-LMD	: 0
+
+Integer registers:
+R0	0	R1	13	R2	21	R3	24	
+R4	28	R5	34	R6	1	R7	4	
+R8	44	R9	0	R10	36	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 5
+620: 8
+624: 13
+628: 21
+632: 34
+636: 0
+
+Total Stalls:
+*Loads	: 14
+*Branches: 28
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 24
+* DF/DS -> EX/DF : 8
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 8
+
+****Cycle #117***********************************************
+Current PC = 544:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: AD 45 02 58>
+* ID : ADD R5, R1, R2
+* RF : LW R2, 600(R4)
+* EX : ADDI R4, R10, #-4
+* DF : LW R1, 600(R3)
+* DS : ADDI R3, R10, #-8
+* WB : **STALL** 
+
+Stall Instruction: ADD R5, R1, R2
+
+Forwarded:
+ Detected: (none)
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 548
+* IS/ID.IR		: <AD 45 02 58>
+* RF/EX.A		: 28
+* RF/EX.B		: 21
+* EX/DF.ALUout	: 32
+* EX/DF.B		: 28
+* DS/WB.ALUout-LMD	: 28
+
+Integer registers:
+R0	0	R1	13	R2	21	R3	24	
+R4	28	R5	34	R6	1	R7	4	
+R8	44	R9	0	R10	36	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 5
+620: 8
+624: 13
+628: 21
+632: 34
+636: 0
+
+Total Stalls:
+*Loads	: 14
+*Branches: 28
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 24
+* DF/DS -> EX/DF : 8
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 8
+
+****Cycle #118***********************************************
+Current PC = 544:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: AD 45 02 58>
+* ID : ADD R5, R1, R2
+* RF : **STALL** 
+* EX : LW R2, 600(R4)
+* DF : ADDI R4, R10, #-4
+* DS : LW R1, 600(R3)
+* WB : ADDI R3, R10, #-8
+
+Stall Instruction: ADD R5, R1, R2
+
+Forwarded:
+ Detected: (none)
+ Forwarding:
+ * EX/DF -> RF/EX : (ADDI R4, R10, #-4) to (LW R2, 600(R4))
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 548
+* IS/ID.IR		: <AD 45 02 58>
+* RF/EX.A		: 0
+* RF/EX.B		: 0
+* EX/DF.ALUout	: 632
+* EX/DF.B		: 21
+* DS/WB.ALUout-LMD	: 21
+
+Integer registers:
+R0	0	R1	13	R2	21	R3	28	
+R4	28	R5	34	R6	1	R7	4	
+R8	44	R9	0	R10	36	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 5
+620: 8
+624: 13
+628: 21
+632: 34
+636: 0
+
+Total Stalls:
+*Loads	: 15
+*Branches: 28
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 25
+* DF/DS -> EX/DF : 8
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 8
+
+****Cycle #119***********************************************
+Current PC = 544:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: AD 45 02 58>
+* ID : ADD R5, R1, R2
+* RF : **STALL** 
+* EX : **STALL** 
+* DF : LW R2, 600(R4)
+* DS : ADDI R4, R10, #-4
+* WB : LW R1, 600(R3)
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (none)
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 548
+* IS/ID.IR		: <AD 45 02 58>
+* RF/EX.A		: 0
+* RF/EX.B		: 0
+* EX/DF.ALUout	: 0
+* EX/DF.B		: 0
+* DS/WB.ALUout-LMD	: 32
+
+Integer registers:
+R0	0	R1	21	R2	21	R3	28	
+R4	28	R5	34	R6	1	R7	4	
+R8	44	R9	0	R10	36	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 5
+620: 8
+624: 13
+628: 21
+632: 34
+636: 0
+
+Total Stalls:
+*Loads	: 16
+*Branches: 28
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 25
+* DF/DS -> EX/DF : 8
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 8
+
+****Cycle #120***********************************************
+Current PC = 548:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: 21 4A 00 04>
+* ID : SW R5, 600(R10)
+* RF : ADD R5, R1, R2
+* EX : **STALL** 
+* DF : **STALL** 
+* DS : LW R2, 600(R4)
+* WB : ADDI R4, R10, #-4
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (ADD R5, R1, R2) to (SW R5, 600(R10))
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 552
+* IS/ID.IR		: <21 4A 00 04>
+* RF/EX.A		: 21
+* RF/EX.B		: 21
+* EX/DF.ALUout	: 0
+* EX/DF.B		: 0
+* DS/WB.ALUout-LMD	: 34
+
+Integer registers:
+R0	0	R1	21	R2	21	R3	28	
+R4	32	R5	34	R6	1	R7	4	
+R8	44	R9	0	R10	36	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 5
+620: 8
+624: 13
+628: 21
+632: 34
+636: 0
+
+Total Stalls:
+*Loads	: 16
+*Branches: 28
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 25
+* DF/DS -> EX/DF : 8
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 8
+
+****Cycle #121***********************************************
+Current PC = 552:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: 11 48 00 01>
+* ID : ADDI R10, R10, #4
+* RF : SW R5, 600(R10)
+* EX : ADD R5, R1, R2
+* DF : **STALL** 
+* DS : **STALL** 
+* WB : LW R2, 600(R4)
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (none)
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (LW R2, 600(R4)) to (ADD R5, R1, R2)
+
+Pipeline Registers:
+* IF/IS.NPC		: 556
+* IS/ID.IR		: <11 48 00 01>
+* RF/EX.A		: 36
+* RF/EX.B		: 34
+* EX/DF.ALUout	: 55
+* EX/DF.B		: 21
+* DS/WB.ALUout-LMD	: 0
+
+Integer registers:
+R0	0	R1	21	R2	34	R3	28	
+R4	32	R5	34	R6	1	R7	4	
+R8	44	R9	0	R10	36	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 5
+620: 8
+624: 13
+628: 21
+632: 34
+636: 0
+
+Total Stalls:
+*Loads	: 16
+*Branches: 28
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 25
+* DF/DS -> EX/DF : 8
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 9
+
+****Cycle #122***********************************************
+Current PC = 556:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: 08 00 00 82>
+* ID : BEQ R10, R8, #4
+* RF : ADDI R10, R10, #4
+* EX : SW R5, 600(R10)
+* DF : ADD R5, R1, R2
+* DS : **STALL** 
+* WB : **STALL** 
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (ADDI R10, R10, #4) to (BEQ R10, R8, #4)
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 560
+* IS/ID.IR		: <08 00 00 82>
+* RF/EX.A		: 36
+* RF/EX.B		: 36
+* EX/DF.ALUout	: 636
+* EX/DF.B		: 34
+* DS/WB.ALUout-LMD	: 0
+
+Integer registers:
+R0	0	R1	21	R2	34	R3	28	
+R4	32	R5	34	R6	1	R7	4	
+R8	44	R9	0	R10	36	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 5
+620: 8
+624: 13
+628: 21
+632: 34
+636: 0
+
+Total Stalls:
+*Loads	: 16
+*Branches: 28
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 25
+* DF/DS -> EX/DF : 8
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 9
+
+****Cycle #123***********************************************
+Current PC = 560:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : NOP
+* ID : J #520
+* RF : BEQ R10, R8, #4
+* EX : ADDI R10, R10, #4
+* DF : SW R5, 600(R10)
+* DS : ADD R5, R1, R2
+* WB : **STALL** 
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (none)
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (ADD R5, R1, R2) to (SW R5, 600(R10))
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 564
+* IS/ID.IR		: <00 00 00 00>
+* RF/EX.A		: 36
+* RF/EX.B		: 44
+* EX/DF.ALUout	: 40
+* EX/DF.B		: 36
+* DS/WB.ALUout-LMD	: 55
+
+Integer registers:
+R0	0	R1	21	R2	34	R3	28	
+R4	32	R5	34	R6	1	R7	4	
+R8	44	R9	0	R10	36	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 5
+620: 8
+624: 13
+628: 21
+632: 34
+636: 0
+
+Total Stalls:
+*Loads	: 16
+*Branches: 28
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 25
+* DF/DS -> EX/DF : 9
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 9
+
+****Cycle #124***********************************************
+Current PC = 564:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: 00 00 00 0D>
+* ID : NOP 
+* RF : J #520
+* EX : BEQ R10, R8, #4
+* DF : ADDI R10, R10, #4
+* DS : SW R5, 600(R10)
+* WB : ADD R5, R1, R2
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (none)
+ Forwarding:
+ * EX/DF -> RF/EX : (ADDI R10, R10, #4) to (BEQ R10, R8, #4)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 568
+* IS/ID.IR		: <00 00 00 0D>
+* RF/EX.A		: 0
+* RF/EX.B		: 0
+* EX/DF.ALUout	: 556
+* EX/DF.B		: 44
+* DS/WB.ALUout-LMD	: 0
+
+Integer registers:
+R0	0	R1	21	R2	34	R3	28	
+R4	32	R5	55	R6	1	R7	4	
+R8	44	R9	0	R10	36	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 5
+620: 8
+624: 13
+628: 21
+632: 34
+636: 55
+
+Total Stalls:
+*Loads	: 16
+*Branches: 28
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 26
+* DF/DS -> EX/DF : 9
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 9
+
+****Cycle #125***********************************************
+Current PC = 568:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : NOP
+* ID : BREAK 
+* RF : NOP 
+* EX : J #520
+* DF : BEQ R10, R8, #4
+* DS : ADDI R10, R10, #4
+* WB : SW R5, 600(R10)
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (none)
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 572
+* IS/ID.IR		: <00 00 00 00>
+* RF/EX.A		: 0
+* RF/EX.B		: 0
+* EX/DF.ALUout	: 520
+* EX/DF.B		: 0
+* DS/WB.ALUout-LMD	: 40
+
+Integer registers:
+R0	0	R1	21	R2	34	R3	28	
+R4	32	R5	55	R6	1	R7	4	
+R8	44	R9	0	R10	36	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 5
+620: 8
+624: 13
+628: 21
+632: 34
+636: 55
+
+Total Stalls:
+*Loads	: 16
+*Branches: 28
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 26
+* DF/DS -> EX/DF : 9
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 9
+
+****Cycle #126***********************************************
+Current PC = 520:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : **STALL**
+* ID : **STALL** 
+* RF : **STALL** 
+* EX : **STALL** 
+* DF : J #520
+* DS : BEQ R10, R8, #4
+* WB : ADDI R10, R10, #4
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (none)
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 524
+* IS/ID.IR		: <00 00 00 00>
+* RF/EX.A		: 0
+* RF/EX.B		: 0
+* EX/DF.ALUout	: 0
+* EX/DF.B		: 0
+* DS/WB.ALUout-LMD	: 556
+
+Integer registers:
+R0	0	R1	21	R2	34	R3	28	
+R4	32	R5	55	R6	1	R7	4	
+R8	44	R9	0	R10	40	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 5
+620: 8
+624: 13
+628: 21
+632: 34
+636: 55
+
+Total Stalls:
+*Loads	: 16
+*Branches: 32
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 26
+* DF/DS -> EX/DF : 9
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 9
+
+****Cycle #127***********************************************
+Current PC = 524:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: 21 43 FF F8>
+* ID : **STALL** 
+* RF : **STALL** 
+* EX : **STALL** 
+* DF : **STALL** 
+* DS : J #520
+* WB : BEQ R10, R8, #4
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (none)
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 528
+* IS/ID.IR		: <21 43 FF F8>
+* RF/EX.A		: 0
+* RF/EX.B		: 0
+* EX/DF.ALUout	: 0
+* EX/DF.B		: 0
+* DS/WB.ALUout-LMD	: 520
+
+Integer registers:
+R0	0	R1	21	R2	34	R3	28	
+R4	32	R5	55	R6	1	R7	4	
+R8	44	R9	0	R10	40	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 5
+620: 8
+624: 13
+628: 21
+632: 34
+636: 55
+
+Total Stalls:
+*Loads	: 16
+*Branches: 32
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 26
+* DF/DS -> EX/DF : 9
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 9
+
+****Cycle #128***********************************************
+Current PC = 528:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: 8C 61 02 58>
+* ID : ADDI R3, R10, #-8
+* RF : **STALL** 
+* EX : **STALL** 
+* DF : **STALL** 
+* DS : **STALL** 
+* WB : J #520
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (none)
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 532
+* IS/ID.IR		: <8C 61 02 58>
+* RF/EX.A		: 0
+* RF/EX.B		: 0
+* EX/DF.ALUout	: 0
+* EX/DF.B		: 0
+* DS/WB.ALUout-LMD	: 0
+
+Integer registers:
+R0	0	R1	21	R2	34	R3	28	
+R4	32	R5	55	R6	1	R7	4	
+R8	44	R9	0	R10	40	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 5
+620: 8
+624: 13
+628: 21
+632: 34
+636: 55
+
+Total Stalls:
+*Loads	: 16
+*Branches: 32
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 26
+* DF/DS -> EX/DF : 9
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 9
+
+****Cycle #129***********************************************
+Current PC = 532:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: 21 44 FF FC>
+* ID : LW R1, 600(R3)
+* RF : ADDI R3, R10, #-8
+* EX : **STALL** 
+* DF : **STALL** 
+* DS : **STALL** 
+* WB : **STALL** 
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (ADDI R3, R10, #-8) to (LW R1, 600(R3))
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 536
+* IS/ID.IR		: <21 44 FF FC>
+* RF/EX.A		: 40
+* RF/EX.B		: 28
+* EX/DF.ALUout	: 0
+* EX/DF.B		: 0
+* DS/WB.ALUout-LMD	: 0
+
+Integer registers:
+R0	0	R1	21	R2	34	R3	28	
+R4	32	R5	55	R6	1	R7	4	
+R8	44	R9	0	R10	40	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 5
+620: 8
+624: 13
+628: 21
+632: 34
+636: 55
+
+Total Stalls:
+*Loads	: 16
+*Branches: 32
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 26
+* DF/DS -> EX/DF : 9
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 9
+
+****Cycle #130***********************************************
+Current PC = 536:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: 8C 82 02 58>
+* ID : ADDI R4, R10, #-4
+* RF : LW R1, 600(R3)
+* EX : ADDI R3, R10, #-8
+* DF : **STALL** 
+* DS : **STALL** 
+* WB : **STALL** 
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (none)
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 540
+* IS/ID.IR		: <8C 82 02 58>
+* RF/EX.A		: 28
+* RF/EX.B		: 21
+* EX/DF.ALUout	: 32
+* EX/DF.B		: 28
+* DS/WB.ALUout-LMD	: 0
+
+Integer registers:
+R0	0	R1	21	R2	34	R3	28	
+R4	32	R5	55	R6	1	R7	4	
+R8	44	R9	0	R10	40	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 5
+620: 8
+624: 13
+628: 21
+632: 34
+636: 55
+
+Total Stalls:
+*Loads	: 16
+*Branches: 32
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 26
+* DF/DS -> EX/DF : 9
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 9
+
+****Cycle #131***********************************************
+Current PC = 540:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: 00 22 28 20>
+* ID : LW R2, 600(R4)
+* RF : ADDI R4, R10, #-4
+* EX : LW R1, 600(R3)
+* DF : ADDI R3, R10, #-8
+* DS : **STALL** 
+* WB : **STALL** 
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (ADDI R4, R10, #-4) to (LW R2, 600(R4))
+ Forwarding:
+ * EX/DF -> RF/EX : (ADDI R3, R10, #-8) to (LW R1, 600(R3))
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 544
+* IS/ID.IR		: <00 22 28 20>
+* RF/EX.A		: 40
+* RF/EX.B		: 32
+* EX/DF.ALUout	: 632
+* EX/DF.B		: 21
+* DS/WB.ALUout-LMD	: 0
+
+Integer registers:
+R0	0	R1	21	R2	34	R3	28	
+R4	32	R5	55	R6	1	R7	4	
+R8	44	R9	0	R10	40	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 5
+620: 8
+624: 13
+628: 21
+632: 34
+636: 55
+
+Total Stalls:
+*Loads	: 16
+*Branches: 32
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 27
+* DF/DS -> EX/DF : 9
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 9
+
+****Cycle #132***********************************************
+Current PC = 544:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: AD 45 02 58>
+* ID : ADD R5, R1, R2
+* RF : LW R2, 600(R4)
+* EX : ADDI R4, R10, #-4
+* DF : LW R1, 600(R3)
+* DS : ADDI R3, R10, #-8
+* WB : **STALL** 
+
+Stall Instruction: ADD R5, R1, R2
+
+Forwarded:
+ Detected: (none)
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 548
+* IS/ID.IR		: <AD 45 02 58>
+* RF/EX.A		: 32
+* RF/EX.B		: 34
+* EX/DF.ALUout	: 36
+* EX/DF.B		: 32
+* DS/WB.ALUout-LMD	: 32
+
+Integer registers:
+R0	0	R1	21	R2	34	R3	28	
+R4	32	R5	55	R6	1	R7	4	
+R8	44	R9	0	R10	40	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 5
+620: 8
+624: 13
+628: 21
+632: 34
+636: 55
+
+Total Stalls:
+*Loads	: 16
+*Branches: 32
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 27
+* DF/DS -> EX/DF : 9
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 9
+
+****Cycle #133***********************************************
+Current PC = 544:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: AD 45 02 58>
+* ID : ADD R5, R1, R2
+* RF : **STALL** 
+* EX : LW R2, 600(R4)
+* DF : ADDI R4, R10, #-4
+* DS : LW R1, 600(R3)
+* WB : ADDI R3, R10, #-8
+
+Stall Instruction: ADD R5, R1, R2
+
+Forwarded:
+ Detected: (none)
+ Forwarding:
+ * EX/DF -> RF/EX : (ADDI R4, R10, #-4) to (LW R2, 600(R4))
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 548
+* IS/ID.IR		: <AD 45 02 58>
+* RF/EX.A		: 0
+* RF/EX.B		: 0
+* EX/DF.ALUout	: 636
+* EX/DF.B		: 34
+* DS/WB.ALUout-LMD	: 34
+
+Integer registers:
+R0	0	R1	21	R2	34	R3	32	
+R4	32	R5	55	R6	1	R7	4	
+R8	44	R9	0	R10	40	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 5
+620: 8
+624: 13
+628: 21
+632: 34
+636: 55
+
+Total Stalls:
+*Loads	: 17
+*Branches: 32
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 28
+* DF/DS -> EX/DF : 9
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 9
+
+****Cycle #134***********************************************
+Current PC = 544:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: AD 45 02 58>
+* ID : ADD R5, R1, R2
+* RF : **STALL** 
+* EX : **STALL** 
+* DF : LW R2, 600(R4)
+* DS : ADDI R4, R10, #-4
+* WB : LW R1, 600(R3)
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (none)
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 548
+* IS/ID.IR		: <AD 45 02 58>
+* RF/EX.A		: 0
+* RF/EX.B		: 0
+* EX/DF.ALUout	: 0
+* EX/DF.B		: 0
+* DS/WB.ALUout-LMD	: 36
+
+Integer registers:
+R0	0	R1	34	R2	34	R3	32	
+R4	32	R5	55	R6	1	R7	4	
+R8	44	R9	0	R10	40	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 5
+620: 8
+624: 13
+628: 21
+632: 34
+636: 55
+
+Total Stalls:
+*Loads	: 18
+*Branches: 32
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 28
+* DF/DS -> EX/DF : 9
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 9
+
+****Cycle #135***********************************************
+Current PC = 548:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: 21 4A 00 04>
+* ID : SW R5, 600(R10)
+* RF : ADD R5, R1, R2
+* EX : **STALL** 
+* DF : **STALL** 
+* DS : LW R2, 600(R4)
+* WB : ADDI R4, R10, #-4
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (ADD R5, R1, R2) to (SW R5, 600(R10))
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 552
+* IS/ID.IR		: <21 4A 00 04>
+* RF/EX.A		: 34
+* RF/EX.B		: 34
+* EX/DF.ALUout	: 0
+* EX/DF.B		: 0
+* DS/WB.ALUout-LMD	: 55
+
+Integer registers:
+R0	0	R1	34	R2	34	R3	32	
+R4	36	R5	55	R6	1	R7	4	
+R8	44	R9	0	R10	40	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 5
+620: 8
+624: 13
+628: 21
+632: 34
+636: 55
+
+Total Stalls:
+*Loads	: 18
+*Branches: 32
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 28
+* DF/DS -> EX/DF : 9
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 9
+
+****Cycle #136***********************************************
+Current PC = 552:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: 11 48 00 01>
+* ID : ADDI R10, R10, #4
+* RF : SW R5, 600(R10)
+* EX : ADD R5, R1, R2
+* DF : **STALL** 
+* DS : **STALL** 
+* WB : LW R2, 600(R4)
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (none)
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (LW R2, 600(R4)) to (ADD R5, R1, R2)
+
+Pipeline Registers:
+* IF/IS.NPC		: 556
+* IS/ID.IR		: <11 48 00 01>
+* RF/EX.A		: 40
+* RF/EX.B		: 55
+* EX/DF.ALUout	: 89
+* EX/DF.B		: 34
+* DS/WB.ALUout-LMD	: 0
+
+Integer registers:
+R0	0	R1	34	R2	55	R3	32	
+R4	36	R5	55	R6	1	R7	4	
+R8	44	R9	0	R10	40	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 5
+620: 8
+624: 13
+628: 21
+632: 34
+636: 55
+
+Total Stalls:
+*Loads	: 18
+*Branches: 32
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 28
+* DF/DS -> EX/DF : 9
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 10
+
+****Cycle #137***********************************************
+Current PC = 556:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: 08 00 00 82>
+* ID : BEQ R10, R8, #4
+* RF : ADDI R10, R10, #4
+* EX : SW R5, 600(R10)
+* DF : ADD R5, R1, R2
+* DS : **STALL** 
+* WB : **STALL** 
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (ADDI R10, R10, #4) to (BEQ R10, R8, #4)
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 560
+* IS/ID.IR		: <08 00 00 82>
+* RF/EX.A		: 40
+* RF/EX.B		: 40
+* EX/DF.ALUout	: 640
+* EX/DF.B		: 55
+* DS/WB.ALUout-LMD	: 0
+
+Integer registers:
+R0	0	R1	34	R2	55	R3	32	
+R4	36	R5	55	R6	1	R7	4	
+R8	44	R9	0	R10	40	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 5
+620: 8
+624: 13
+628: 21
+632: 34
+636: 55
+
+Total Stalls:
+*Loads	: 18
+*Branches: 32
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 28
+* DF/DS -> EX/DF : 9
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 10
+
+****Cycle #138***********************************************
+Current PC = 560:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : NOP
+* ID : J #520
+* RF : BEQ R10, R8, #4
+* EX : ADDI R10, R10, #4
+* DF : SW R5, 600(R10)
+* DS : ADD R5, R1, R2
+* WB : **STALL** 
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (none)
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (ADD R5, R1, R2) to (SW R5, 600(R10))
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 564
+* IS/ID.IR		: <00 00 00 00>
+* RF/EX.A		: 40
+* RF/EX.B		: 44
+* EX/DF.ALUout	: 44
+* EX/DF.B		: 40
+* DS/WB.ALUout-LMD	: 89
+
+Integer registers:
+R0	0	R1	34	R2	55	R3	32	
+R4	36	R5	55	R6	1	R7	4	
+R8	44	R9	0	R10	40	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 5
+620: 8
+624: 13
+628: 21
+632: 34
+636: 55
+
+Total Stalls:
+*Loads	: 18
+*Branches: 32
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 28
+* DF/DS -> EX/DF : 10
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 10
+
+****Cycle #139***********************************************
+Current PC = 564:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: 00 00 00 0D>
+* ID : NOP 
+* RF : J #520
+* EX : BEQ R10, R8, #4
+* DF : ADDI R10, R10, #4
+* DS : SW R5, 600(R10)
+* WB : ADD R5, R1, R2
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (none)
+ Forwarding:
+ * EX/DF -> RF/EX : (ADDI R10, R10, #4) to (BEQ R10, R8, #4)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 568
+* IS/ID.IR		: <00 00 00 0D>
+* RF/EX.A		: 0
+* RF/EX.B		: 0
+* EX/DF.ALUout	: 556
+* EX/DF.B		: 44
+* DS/WB.ALUout-LMD	: 0
+
+Integer registers:
+R0	0	R1	34	R2	55	R3	32	
+R4	36	R5	89	R6	1	R7	4	
+R8	44	R9	0	R10	40	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 5
+620: 8
+624: 13
+628: 21
+632: 34
+636: 55
+
+Total Stalls:
+*Loads	: 18
+*Branches: 32
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 29
+* DF/DS -> EX/DF : 10
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 10
+
+****Cycle #140***********************************************
+Current PC = 556:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : **STALL**
+* ID : **STALL** 
+* RF : **STALL** 
+* EX : **STALL** 
+* DF : BEQ R10, R8, #4
+* DS : ADDI R10, R10, #4
+* WB : SW R5, 600(R10)
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (none)
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 560
+* IS/ID.IR		: <00 00 00 00>
+* RF/EX.A		: 0
+* RF/EX.B		: 0
+* EX/DF.ALUout	: 0
+* EX/DF.B		: 0
+* DS/WB.ALUout-LMD	: 44
+
+Integer registers:
+R0	0	R1	34	R2	55	R3	32	
+R4	36	R5	89	R6	1	R7	4	
+R8	44	R9	0	R10	40	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 5
+620: 8
+624: 13
+628: 21
+632: 34
+636: 55
+
+Total Stalls:
+*Loads	: 18
+*Branches: 36
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 29
+* DF/DS -> EX/DF : 10
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 10
+
+****Cycle #141***********************************************
+Current PC = 560:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : NOP
+* ID : **STALL** 
+* RF : **STALL** 
+* EX : **STALL** 
+* DF : **STALL** 
+* DS : BEQ R10, R8, #4
+* WB : ADDI R10, R10, #4
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (none)
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 564
+* IS/ID.IR		: <00 00 00 00>
+* RF/EX.A		: 0
+* RF/EX.B		: 0
+* EX/DF.ALUout	: 0
+* EX/DF.B		: 0
+* DS/WB.ALUout-LMD	: 556
+
+Integer registers:
+R0	0	R1	34	R2	55	R3	32	
+R4	36	R5	89	R6	1	R7	4	
+R8	44	R9	0	R10	44	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 5
+620: 8
+624: 13
+628: 21
+632: 34
+636: 55
+
+Total Stalls:
+*Loads	: 18
+*Branches: 36
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 29
+* DF/DS -> EX/DF : 10
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 10
+
+****Cycle #142***********************************************
+Current PC = 564:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : <Fetched: 00 00 00 0D>
+* ID : NOP 
+* RF : **STALL** 
+* EX : **STALL** 
+* DF : **STALL** 
+* DS : **STALL** 
+* WB : BEQ R10, R8, #4
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (none)
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 568
+* IS/ID.IR		: <00 00 00 0D>
+* RF/EX.A		: 0
+* RF/EX.B		: 0
+* EX/DF.ALUout	: 0
+* EX/DF.B		: 0
+* DS/WB.ALUout-LMD	: 0
+
+Integer registers:
+R0	0	R1	34	R2	55	R3	32	
+R4	36	R5	89	R6	1	R7	4	
+R8	44	R9	0	R10	44	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 5
+620: 8
+624: 13
+628: 21
+632: 34
+636: 55
+
+Total Stalls:
+*Loads	: 18
+*Branches: 36
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 29
+* DF/DS -> EX/DF : 10
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 10
+
+****Cycle #143***********************************************
+Current PC = 568:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : NOP
+* ID : BREAK 
+* RF : NOP 
+* EX : **STALL** 
+* DF : **STALL** 
+* DS : **STALL** 
+* WB : **STALL** 
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (none)
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 572
+* IS/ID.IR		: <00 00 00 00>
+* RF/EX.A		: 0
+* RF/EX.B		: 0
+* EX/DF.ALUout	: 0
+* EX/DF.B		: 0
+* DS/WB.ALUout-LMD	: 0
+
+Integer registers:
+R0	0	R1	34	R2	55	R3	32	
+R4	36	R5	89	R6	1	R7	4	
+R8	44	R9	0	R10	44	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 5
+620: 8
+624: 13
+628: 21
+632: 34
+636: 55
+
+Total Stalls:
+*Loads	: 18
+*Branches: 36
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 29
+* DF/DS -> EX/DF : 10
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 10
+
+****Cycle #144***********************************************
+Current PC = 572:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : NOP
+* ID : NOP 
+* RF : BREAK 
+* EX : NOP 
+* DF : **STALL** 
+* DS : **STALL** 
+* WB : **STALL** 
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (none)
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 576
+* IS/ID.IR		: <00 00 00 00>
+* RF/EX.A		: 0
+* RF/EX.B		: 0
+* EX/DF.ALUout	: 0
+* EX/DF.B		: 0
+* DS/WB.ALUout-LMD	: 0
+
+Integer registers:
+R0	0	R1	34	R2	55	R3	32	
+R4	36	R5	89	R6	1	R7	4	
+R8	44	R9	0	R10	44	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 5
+620: 8
+624: 13
+628: 21
+632: 34
+636: 55
+
+Total Stalls:
+*Loads	: 18
+*Branches: 36
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 29
+* DF/DS -> EX/DF : 10
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 10
+
+****Cycle #145***********************************************
+Current PC = 576:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : NOP
+* ID : NOP 
+* RF : NOP 
+* EX : BREAK 
+* DF : NOP 
+* DS : **STALL** 
+* WB : **STALL** 
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (none)
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 580
+* IS/ID.IR		: <00 00 00 00>
+* RF/EX.A		: 0
+* RF/EX.B		: 0
+* EX/DF.ALUout	: 0
+* EX/DF.B		: 0
+* DS/WB.ALUout-LMD	: 0
+
+Integer registers:
+R0	0	R1	34	R2	55	R3	32	
+R4	36	R5	89	R6	1	R7	4	
+R8	44	R9	0	R10	44	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 5
+620: 8
+624: 13
+628: 21
+632: 34
+636: 55
+
+Total Stalls:
+*Loads	: 18
+*Branches: 36
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 29
+* DF/DS -> EX/DF : 10
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 10
+
+****Cycle #146***********************************************
+Current PC = 580:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : NOP
+* ID : NOP 
+* RF : NOP 
+* EX : NOP 
+* DF : BREAK 
+* DS : NOP 
+* WB : **STALL** 
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (none)
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 584
+* IS/ID.IR		: <00 00 00 00>
+* RF/EX.A		: 0
+* RF/EX.B		: 0
+* EX/DF.ALUout	: 0
+* EX/DF.B		: 0
+* DS/WB.ALUout-LMD	: 0
+
+Integer registers:
+R0	0	R1	34	R2	55	R3	32	
+R4	36	R5	89	R6	1	R7	4	
+R8	44	R9	0	R10	44	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 5
+620: 8
+624: 13
+628: 21
+632: 34
+636: 55
+
+Total Stalls:
+*Loads	: 18
+*Branches: 36
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 29
+* DF/DS -> EX/DF : 10
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 10
+
+****Cycle #147***********************************************
+Current PC = 584:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : NOP
+* ID : NOP 
+* RF : NOP 
+* EX : NOP 
+* DF : NOP 
+* DS : BREAK 
+* WB : NOP 
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (none)
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 588
+* IS/ID.IR		: <00 00 00 00>
+* RF/EX.A		: 0
+* RF/EX.B		: 0
+* EX/DF.ALUout	: 0
+* EX/DF.B		: 0
+* DS/WB.ALUout-LMD	: 0
+
+Integer registers:
+R0	0	R1	34	R2	55	R3	32	
+R4	36	R5	89	R6	1	R7	4	
+R8	44	R9	0	R10	44	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 5
+620: 8
+624: 13
+628: 21
+632: 34
+636: 55
+
+Total Stalls:
+*Loads	: 18
+*Branches: 36
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 29
+* DF/DS -> EX/DF : 10
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 10
+
+****Cycle #148***********************************************
+Current PC = 588:
+
+Pipeline Status:
+* IF : <unknown>
+* IS : NOP
+* ID : NOP 
+* RF : NOP 
+* EX : NOP 
+* DF : NOP 
+* DS : NOP 
+* WB : BREAK 
+
+Stall Instruction: (none) 
+
+Forwarded:
+ Detected: (none)
+ Forwarding:
+ * EX/DF -> RF/EX : (none)
+ * DF/DS -> EX/DF : (none)
+ * DF/DS -> RF/EX : (none)
+ * DS/WB -> EX/DF : (none)
+ * DS/WB -> RF/EX : (none)
+
+Pipeline Registers:
+* IF/IS.NPC		: 592
+* IS/ID.IR		: <00 00 00 00>
+* RF/EX.A		: 0
+* RF/EX.B		: 0
+* EX/DF.ALUout	: 0
+* EX/DF.B		: 0
+* DS/WB.ALUout-LMD	: 0
+
+Integer registers:
+R0	0	R1	34	R2	55	R3	32	
+R4	36	R5	89	R6	1	R7	4	
+R8	44	R9	0	R10	44	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 5
+620: 8
+624: 13
+628: 21
+632: 34
+636: 55
+
+Total Stalls:
+*Loads	: 18
+*Branches: 36
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 29
+* DF/DS -> EX/DF : 10
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 10
+
+**** Summary ************************************************
+
+BREAK PC = 560
+
+Total Cycles Simulated = 148
+
+Integer registers:
+R0	0	R1	34	R2	55	R3	32	
+R4	36	R5	89	R6	1	R7	4	
+R8	44	R9	0	R10	44	R11	0	
+R12	0	R13	0	R14	0	R15	0	
+R16	0	R17	0	R18	0	R19	0	
+R20	0	R21	0	R22	0	R23	0	
+R24	0	R25	0	R26	0	R27	0	
+R28	0	R29	0	R30	0	R31	0	
+
+Data memory:
+600: 1
+604: 1
+608: 2
+612: 3
+616: 5
+620: 8
+624: 13
+628: 21
+632: 34
+636: 55
+
+Total Stalls:
+*Loads	: 18
+*Branches: 36
+*Other	: 0
+
+Total Forwardings:
+* EX/DF -> RF/EX : 29
+* DF/DS -> EX/DF : 10
+* DF/DS -> RF/EX : 0
+* DS/WB -> EX/DF : 0
+* DS/WB -> RF/EX : 10
+
